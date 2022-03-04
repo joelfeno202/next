@@ -1,0 +1,1 @@
+<img class="mt-10" width='40px' src="{{asset('images/next_one1.jpg')}}" alt="logo">

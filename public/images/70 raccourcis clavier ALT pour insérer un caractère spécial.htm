@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="fr-FR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><script gtm="GTM-5SBPW8G" type="text/javascript" async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/optimize.js"></script><script gtm="GTM-5SBPW8G" type="text/javascript" async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/optimize.js"></script><script type="text/javascript" async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/js"></script><script type="text/javascript" async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/analytics.js"></script><script async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/gtm.js"></script><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="theme-color" content="#024ef5">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="BDM - ">
+	<meta name="robots" content="max-image-preview:large">
+	<title>70 raccourcis clavier ALT pour insérer un caractère spécial</title>
+	<meta name="description" content="Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller.">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="70 raccourcis clavier ALT pour insérer un caractère spécial">
+	<meta property="og:description" content="Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller.">
+	<meta property="og:url" content="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/">
+	<meta property="og:image" content="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-1200x628.jpeg">
+	<meta property="og:image:secure_url" content="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-1200x628.jpeg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="628">
+	<meta property="og:site_name" content="BDM">
+	<meta property="og:updated_time" content="2021-07-07T13:24:54+02:00"><meta property="article:publisher" content="https://www.facebook.com/blogdumoderateur"><meta property="article:tag" content="Bureautique"><meta property="article:section" content="Web"><meta property="article:published_time" content="2014-01-15T15:04:01+01:00"><meta property="article:modified_time" content="2021-07-07T13:24:54+02:00"><meta name="twitter:creator" content="@Thom404">	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@blogdumoderateur">
+	<meta name="twitter:description" content="Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller.">
+	<meta name="twitter:title" content="70 raccourcis clavier ALT pour insérer un caractère spécial">
+	<meta name="apple-mobile-web-app-title" content="BDM">
+	<meta name="application-name" content="BDM">
+	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/">
+	<link rel="dns-prefetch" href="https://www.blogdumoderateur.com/">
+
+<link rel="alternate" type="application/rss+xml" title="Flux BDM » Stories" href="https://www.blogdumoderateur.com/web-stories/feed/"><link rel="preload" href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/fonts/Barlow-Regular.woff2" as="font" crossorigin="anonymous"><link rel="preload" href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/fonts/Barlow-SemiBold.woff2" as="font" crossorigin="anonymous"><link rel="preload" href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/fonts/Barlow-Black.woff2" as="font" crossorigin="anonymous"><style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="hw_lgtbx_fancyb-css" href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery.css" media="all">
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link data-minify="1" rel="stylesheet" id="contact-form-7-css" href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/styles.css" media="all">
+<link rel="stylesheet" id="hw_mlp-styles-css" href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/landing.css" media="all">
+<link rel="stylesheet" id="bootstrap-grid-css" href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/bootstrap-grid.css" media="all">
+<link data-minify="1" rel="stylesheet" id="bdm-core-css" href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/core.css" media="all">
+<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery_002.js" id="jquery-core-js" defer="defer"></script>
+<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery-migrate.js" id="jquery-migrate-js" defer="defer"></script>
+<script id="nl_sub-js-extra">
+var ajaxurl = ["https:\/\/www.blogdumoderateur.com\/wp-admin\/admin-ajax.php"];
+</script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/nl_sub.js" id="nl_sub-js" defer="defer"></script>
+<link rel="alternate" type="application/json+oembed" href="https://www.blogdumoderateur.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.blogdumoderateur.com%2Fraccourcis-clavier-alt-caractere-special%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.blogdumoderateur.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.blogdumoderateur.com%2Fraccourcis-clavier-alt-caractere-special%2F&amp;format=xml">
+	<script>
+		/* Options de l'interfaçce */
+		window.HelloworkCookieConsentCustomConfig = {
+						privacyPolicyUrl:  "\/politique-de-confidentialite\/",
+									termsOfServiceUrl:  "\/cgu\/",
+									noticeIntroductionText:  "BDM utilise des cookies pour r\u00e9aliser des mesures d'audience.",
+									noticeDescriptionText:  "[p]En cliquant sur le bouton Accepter, vous acceptez nos [btn=terms-of-service]CGU[\/btn] et notre [btn=privacy-policy]politique de confidentialit\u00e9[\/btn].[\/p]\r\n[p]Vous pouvez [btn=customize-cookies]personnaliser vos choix[\/btn] et changer d\u2019avis en cliquant sur \"G\u00e9rer mes cookies\" dans notre politique de confidentialit\u00e9.[\/p]",
+												consentModalEndText:  "En cliquant sur le bouton [ Accepter ] vous acceptez les CGU et la politique de confidentialit\u00e9 BDM.",
+															consentModalCookieMarketingText:  "En acceptant le param\u00e9trage de ces cookies, vous pourrez visualiser des publicit\u00e9s pour des articles sur notre site ou des services de nos partenaires.",
+												btnDenyCookies:  true,
+									btnDenyCookiesType:  "btn-deny-all",
+									btnCustomizeCookies:  false,
+											}
+	</script>
+
+			<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/embed.js" defer="defer"></script>
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			window.helloworkCookieConsent = new HelloworkCookieConsent();
+		});
+	</script>
+
+	
+	<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.blogdumoderateur.com"},{"@type":"ListItem","position":2,"name":"Articles","item":"https://www.blogdumoderateur.com/articles/"},{"@type":"ListItem","position":3,"name":"Web","item":"https://www.blogdumoderateur.com/web/"},{"@type":"ListItem","position":4,"name":"70 raccourcis clavier ALT pour insérer un caractère spécial","item":"https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/"}]}
+</script><script type="application/ld+json">
+{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/"},"headline":"70 raccourcis clavier ALT pour insérer un caractère spécial","alternativeHeadline":"Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller.","description":"Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller.","image":"https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg","datePublished":"2014-01-15T15:04:01+01:00","dateModified":"2021-07-07T13:24:54+02:00","keywords":["Bureautique"],"articleSection":"Web","author":{"@type":"Person","name":"Thomas Coëffé"},"articleBody":"Sur ce point, l'Académie Française est formelle : en français, l’accent a pleine valeur orthographique. Contrairement à ce que certains ont appris à l'école, les majuscules doivent donc être accentuées. Et je peux vous l'assurer : cela facilite la vie de ceux dont le nom de famille comprend une lettre comportant un accent. Malheureusement, il suffit de regarder un clavier d'ordinateur pour se rendre compte que les majuscules accentuées ne sont pas facilement accessibles...\r\nTout comme les très nombreux caractères spéciaux qui façonnent notre écriture, comme les fameux æ et œ collés. Heureusement, il existe une parade ! Les ordinateurs qui tournent sous Windows supporte en effet une astuce de taille : des raccourcis clavier pour chaque caractère spécial. Ainsi, en quelques secondes, vous pouvez insérer un É majuscule, un À majuscule ou même un Œ majuscule. De nombreux symboles sont également proposés par ce biais, comme &#x2122;, ©, ®, € et même quelques notes de musique : ♪ et ♫.\r\nIl suffit de maintenir la touche ALT, puis de saisir le code correspondant au caractère spécial grâce au pavé numérique. Voici les principaux raccourcis clavier à connaître pour insérer un caractère spécial !\r\n\r\nInsérer une majuscule accentuée\r\n\r\n \tALT+128 : Ç (ç cédille majuscule)\r\n \tALT+142 : Ä (ä tréma majuscule)\r\n \tALT+143 : Å (å majuscule diacrité d'un rond en chef)\r\n \tALT+144 : É (é accent aigu majuscule)\r\n \tALT+146 : Æ (ae collés majuscule)\r\n \tALT+153 : Ö (ö tréma majuscule)\r\n \tALT+154 : Ü (ü tréma majuscule)\r\n \tALT+165 : Ñ (eñe, le n espagnol en majuscule)\r\n \tALT+183 : À (à accent grave majuscule)\r\n \tALT+212 : È (è accent grave majuscule)\r\n \tALT+0140 : Œ (oe collés)\r\n\r\nInsérer un caractère spécial ou accentué\r\n\r\n \tALT+134 : å (a diacrité d'un rond en chef)\r\n \tALT+141 : ì (i accent grave)\r\n \tALT+145 : æ (ae collés)\r\n \tALT+149 : ò (o accent grave)\r\n \tALT+152 : ÿ (y tréma)\r\n \tALT+155 : ø (o barré)\r\n \tALT+157 : Ø (o barré majuscule)\r\n \tALT+160 : á (a accent aigu)\r\n \tALT+161 : í (i accent aigu)\r\n \tALT+162 : ó (o accent aigu)\r\n \tALT+163 : ú (u accent aigu)\r\n \tALT+164 : ñ (eñe, le n espagnol)\r\n \tALT+166 : ª (a en exposant)\r\n \tALT+167 : º (le symbole des degrés)\r\n \tALT+167 : ¿ (un point d'interrogation inversé)\r\n \tALT+173 : ¡ (un point d'exclamation inversé)\r\n \tALT+0156 : œ (oe collés)\r\n\r\nInsérer un symbole mathématique\r\n\r\n \tALT+159 : ƒ (fonction)\r\n \tALT+171 : ½ (un demi)\r\n \tALT+172 : ¼ (un quart)\r\n \tALT+241 : ± (plus ou moins)\r\n \tALT+243 : ¾ (trois quarts)\r\n \tALT+246 : ÷ (symbole divisé par)\r\n \tALT+251 : ¹ (1 en exposant)\r\n \tALT+252 : ³ (3 en exposant)\r\n \tALT+253 : ² (2 en exposant)\r\n \tALT+0137 : ‰ (symbole pour mille)\r\n\r\n Insérer une flèche\r\n\r\n \tALT+23 : ↨ (double flèche verticale)\r\n \tALT+24 : ↑ (flèche vers le haut)\r\n \tALT+25 : ↓ (flèche vers le bas)\r\n \tALT+26 : → (flèche vers la droite)\r\n \tALT+27 : ← (flèche vers la gauche)\r\n \tALT+29 : &#x2194; (double flèche horizontale)\r\n \tALT+16 : ► (grosse flèche vers la droite)\r\n \tALT+17 : ◄ (grosse flèche vers la gauche)\r\n \tALT+30 : ▲ (grosse flèche vers le haut)\r\n \tALT+31 : ▼ (grosse flèche vers le bas)\r\n\r\nInsérer un symbole\r\n\r\n \tALT+20 : ¶ (retour chariot)\r\n \tALT+21 : § (paragraphe)\r\n \tALT+1 : &#x263a; (smiley blanc)\r\n \tALT+2 : ☻ (smiley noir)\r\n \tALT+3 : &#x2665; (cœur)\r\n \tALT+4 : &#x2666; (carreau)\r\n \tALT+5 : &#x2663; (trèfle)\r\n \tALT+6 : &#x2660; (pic)\r\n \tALT+7 : • (bullet point)\r\n \tALT+9 : ○ (point blanc)\r\n \tALT+11 : &#x2642; (homme)\r\n \tALT+12 : &#x2640; (femme)\r\n \tALT+13 : ♪ (note de musique : croche)\r\n \tALT+14 : ♫ (note de musique : deux croches)\r\n \tALT+15 : ☼ (soleil)\r\n \tALT+0128 : € (symbole euro)\r\n \tALT+0147 : “ (ouverture des guillemets anglais)\r\n \tALT+0148 : ” (fermeture des guillemets anglais)\r\n \tALT+0153 : &#x2122; (symbole TM exposant, trademark, marque déposée)\r\n \tALT+0164 : ¤ (symbole monétaire)\r\n \tALT+0169 : © (symbole c entouré, copyright)\r\n \tALT+0174 : ® (symbole R entouré, marque)","publisher":{"@type":"Organization","name":"BDM","url":"https://www.blogdumoderateur.com","logo":{"@type":"ImageObject","url":"https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/logo/logo-amp.png","width":600,"height":60}},"speakable":{"@type":"SpeakableSpecification","cssSelector":"[\"h1\",\".article-hat\"]"},"url":"https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/"}
+</script>	<script>
+		window.dataLayer = window.dataLayer || [];
+		dataLayer = [{
+			'typeSite': 'blog',
+			'cateSite': 'blogdumoderateur',
+			'site' : 'blogdumoderateur',
+			'rubrique' : '',
+			'categoryPage': 'Detail',
+			'sujetPage': 'Article',
+			'typePage' : 'DA-Classique',
+			'Categorie' : 'web',
+			'Tag' : 'bureautique',
+			'Resultat-Recherche' : ''
+		}];
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5SBPW8G');</script>
+	<!-- End Google Tag Manager -->
+	<link rel="amphtml" href="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/amp/"><link rel="icon" href="https://f.hellowork.com/blogdumoderateur/2022/01/cropped-favicon-bdm-1-32x32.png" sizes="32x32">
+<link rel="icon" href="https://f.hellowork.com/blogdumoderateur/2022/01/cropped-favicon-bdm-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://f.hellowork.com/blogdumoderateur/2022/01/cropped-favicon-bdm-1-180x180.png">
+<meta name="msapplication-TileImage" content="https://f.hellowork.com/blogdumoderateur/2022/01/cropped-favicon-bdm-1-270x270.png">
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/wp-polyfill.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery_002.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery-migrate.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/nl_sub.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/embed.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/hw-lightbox.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/regenerator-runtime.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/index.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/js.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/landing.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/hw-sv-scripts.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/navigation.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/skip-link-focus-fix.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/gnikcart.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/common.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/share.js" rel="preload" as="script"><link href="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/post.js" rel="preload" as="script"><style>.hw-cc-notice-content p{font-size:11px;line-height:1.25em;margin-bottom:5px;margin-top:0}@media(min-width: 768px){.hw-cc-notice-content p{font-size:12px}}.hw-cc-notice-modal .hw-cc-notice-content__intro{font-size:12px;font-weight:bold;margin-bottom:15px;text-align:center}@media(min-width: 768px){.hw-cc-notice-modal .hw-cc-notice-content__intro{font-size:14px}}</style><style>.hw-cc-btn{border:0;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;cursor:pointer;display:inline-block;font-size:14px;height:auto;line-height:1.15em;padding:12px 15px;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overflow:hidden;width:auto}.hw-cc-btn>span{position:relative}.hw-cc-btn:hover:before{background-color:#000;content:"";height:100%;left:0;opacity:.15;position:absolute;top:0;width:100%}.hw-cc-btn--default,.hw-cc-btn--default:hover{background-color:#e1e1e1;color:#000}.hw-cc-btn--primary,.hw-cc-btn--primary:hover{background-color:#000;color:#fff}</style><style>.hw-cc-notice-box{z-index:9998;position:relative}.hw-cc-notice-box__wrapper{background-color:#fff;bottom:0;-webkit-box-shadow:0 -5px 10px 0 rgba(0,0,0,.05);-moz-box-shadow:0 -5px 10px 0 rgba(0,0,0,.05);box-shadow:0 -5px 10px 0 rgba(0,0,0,.05);left:0;position:fixed;width:100%;z-index:2}.hw-cc-notice-box__inner{color:#707070;font-size:12px;padding:10px}@media(min-width: 768px){.hw-cc-notice-box__inner{-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;height:100%}}@media(min-width: 768px){.hw-cc-notice-box__body{-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;max-width:1000px}}.hw-cc-notice-box__body-header{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-moz-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-bottom:10px}@media(min-width: 768px){.hw-cc-notice-box__body-header{display:none}}.hw-cc-notice-box__actions{-webkit-box-align:end;-webkit-align-items:flex-end;-moz-box-align:end;-ms-flex-align:end;align-items:flex-end;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.hw-cc-notice-box__actions>*:not(:last-child){margin-bottom:20px}@media(max-width: 767px){.hw-cc-notice-box__actions{margin-top:10px}}@media(min-width: 768px){.hw-cc-notice-box__actions{margin-left:15px}}@media(max-width: 767px){.hw-cc-notice-box__actions .hw-cc-notice-box__btn-continue-without-accepting{display:none}}.hw-cc-notice-box__actions-btns{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;margin:-8px}.hw-cc-notice-box__actions-btns>*{margin:8px}@media(max-width: 467px){.hw-cc-notice-box__actions-btns--flex-wrap-xs{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around}}.hw-cc-notice-box__btn-continue-without-accepting{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;color:#303030;font-size:12px;text-decoration:none}.hw-cc-notice-box__btn-continue-without-accepting:hover{text-decoration:underline}.hw-cc-notice-box.visible .hw-cc-notice-box__wrapper{-webkit-animation:hw-cc-slide-up .5s;-moz-animation:hw-cc-slide-up .5s;-o-animation:hw-cc-slide-up .5s;animation:hw-cc-slide-up .5s}.hw-cc-notice-box:not(.visible) .hw-cc-notice-box__wrapper{display:none}@-webkit-keyframes hw-cc-slide-up{0%{opacity:.5;-webkit-transform:translateY(150%);transform:translateY(150%)}100%{opacity:1;-webkit-transform:translateY(0%);transform:translateY(0%)}}@-moz-keyframes hw-cc-slide-up{0%{opacity:.5;-moz-transform:translateY(150%);transform:translateY(150%)}100%{opacity:1;-moz-transform:translateY(0%);transform:translateY(0%)}}@-o-keyframes hw-cc-slide-up{0%{opacity:.5;-o-transform:translateY(150%);transform:translateY(150%)}100%{opacity:1;-o-transform:translateY(0%);transform:translateY(0%)}}@keyframes hw-cc-slide-up{0%{opacity:.5;-webkit-transform:translateY(150%);-moz-transform:translateY(150%);-o-transform:translateY(150%);transform:translateY(150%)}100%{opacity:1;-webkit-transform:translateY(0%);-moz-transform:translateY(0%);-o-transform:translateY(0%);transform:translateY(0%)}}</style><style>button.btn-as-link{background:transparent;border:0;color:#707070;cursor:pointer;display:inline-block;height:auto;line-height:normal;margin:0;padding:0;text-decoration:underline;width:auto}button.btn-as-link:hover{color:#000}</style><style>.hw-cc-btn-close{background-color:transparent;background-image:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FscXVlXzEiIA0KICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgDQogICAgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUgLTUuMDAyKSI+DQogICAgICAgIDxwYXRoIGQ9Ik0yNS44LDIxbDEwLjUtMTAuNWMwLjItMC4zLDAuMi0wLjcsMC0wLjlsLTMuOS0zLjljLTAuMy0wLjItMC43LTAuMi0wLjksMEwyMSwxNi4yTDEwLjUsNS43Yy0wLjMtMC4yLTAuNi0wLjItMC45LDANCgkJTDUuNyw5LjZjLTAuMiwwLjMtMC4yLDAuNywwLDAuOUwxNi4yLDIxTDUuNywzMS41Yy0wLjIsMC4zLTAuMiwwLjcsMCwwLjlsMy45LDMuOWMwLjMsMC4yLDAuNywwLjIsMC45LDBMMjEsMjUuOGwxMC41LDEwLjUNCgkJYzAuMywwLjIsMC43LDAuMiwwLjksMGwzLjktMy45YzAuMi0wLjMsMC4yLTAuNywwLTAuOUwyNS44LDIxeiIvPg0KICAgIDwvZz4NCjwvc3ZnPg0K");background-position:center center;background-repeat:no-repeat;-moz-background-size:40% 40%;background-size:40% 40%;border:0;cursor:pointer;display:block;height:25px;width:25px}.hw-cc-btn-close:hover{background-color:transparent}</style><style>.hw-cc-modal__wrapper{-webkit-box-align:end;-webkit-align-items:flex-end;-moz-box-align:end;-ms-flex-align:end;align-items:flex-end;background-color:rgba(0,0,0,.5);bottom:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;left:0;overflow-x:hidden;overflow-y:auto;position:fixed;right:0;top:0;-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:-webkit-transform 0s;transition:-webkit-transform 0s;-o-transition:-o-transform 0s;-moz-transition:transform 0s, -moz-transform 0s;transition:transform 0s;transition:transform 0s, -webkit-transform 0s, -moz-transform 0s, -o-transform 0s;z-index:9999}.hw-cc-modal__wrapper:after{content:"";height:1px;display:block;width:100%}.hw-cc-modal__wrapper.visible{-webkit-transform:translateY(0%);-moz-transform:translateY(0%);-ms-transform:translateY(0%);-o-transform:translateY(0%);transform:translateY(0%);-webkit-transition-delay:0s;-moz-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}.hw-cc-modal__dialog{background-color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;opacity:0;margin:25px 10px;max-width:100%;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);-ms-transform:translateY(-30px);-o-transform:translateY(-30px);transform:translateY(-30px);-webkit-transition:opacity .3s,-webkit-transform .3s;transition:opacity .3s,-webkit-transform .3s;-o-transition:opacity .3s,-o-transform .3s;-moz-transition:opacity .3s,transform .3s,-moz-transform .3s;transition:opacity .3s,transform .3s;transition:opacity .3s,transform .3s,-webkit-transform .3s,-moz-transform .3s,-o-transform .3s;-webkit-transition-delay:0s,0s;-moz-transition-delay:0s,0s;-o-transition-delay:0s,0s;transition-delay:0s,0s}@media(min-width: 768px){.hw-cc-modal__dialog{max-width:665px}}.hw-cc-modal__dialog:not(.visible){-webkit-transition:none;-o-transition:none;-moz-transition:none;transition:none}.hw-cc-modal__dialog.visible{opacity:1;-webkit-transform:translateY(0%);-moz-transform:translateY(0%);-ms-transform:translateY(0%);-o-transform:translateY(0%);transform:translateY(0%)}.hw-cc-modal__header{-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-moz-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;padding:15px}.hw-cc-modal__header>*:not(:last-child){margin-right:15px}.hw-cc-modal__header-title{color:#000;-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;font-size:18px;font-weight:bold;line-height:1.25;text-align:center}.hw-cc-modal__body{padding:15px}@media(min-width: 768px){.hw-cc-modal__body{padding:35px}}.hw-cc-modal__body>*:not(:last-child){margin-bottom:25px}.hw-cc-modal__header+.hw-cc-modal__body{padding-top:0}</style><style>.hw-cc-notice-modal .hw-cc-notice-modal__logo{display:block;margin:auto;margin-bottom:10px;max-width:200px;width:100%}@supports((-o-object-fit: contain) or (object-fit: contain)){.hw-cc-notice-modal .hw-cc-notice-modal__logo{height:60px;-o-object-fit:contain;object-fit:contain}}.hw-cc-notice-modal .hw-cc-notice-modal__btn-continue-without-accepting{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;color:#303030;font-size:12px;margin-left:auto;text-decoration:none}.hw-cc-notice-modal .hw-cc-notice-modal__btn-continue-without-accepting:hover{text-decoration:underline}.hw-cc-notice-modal .hw-cc-notice-modal__btn-continue-without-accepting--mb-0{margin-bottom:0}</style><style>.hw-cc-btn-group{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:-10px}.hw-cc-btn-group>*{margin:10px}</style><style>.hw-cc-opt-in-box{cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.hw-cc-opt-in-box__wrapper-input>input{position:relative;top:-1px}.hw-cc-opt-in-box__wrapper-content{-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.hw-cc-opt-in-box__wrapper-content button:before{content:"> "}.hw-cc-opt-in-box__wrapper-input+.hw-cc-opt-in-box__wrapper-content{padding-left:10px}.hw-cc-opt-in-box__label{color:#000;font-size:14px;font-weight:bold;line-height:1.25em}.hw-cc-opt-in-box__description{line-height:1.5em}.hw-cc-opt-in-box:not(.hw-cc-opt-in-box--disabled) .hw-cc-opt-in-box__wrapper-input>input,.hw-cc-opt-in-box:not(.hw-cc-opt-in-box--disabled) .hw-cc-opt-in-box__wrapper-content>label{cursor:pointer}</style><style>.hw-cc-consent-modal-content>*:not(:last-child){margin-bottom:25px}</style><style>.hw-cc-main{font-family:sans-serif;font-size:14px;color:#707070}.hw-cc-main,.hw-cc-main *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}</style><style>[data-hw-cc-btn-toggle-modal]{cursor:pointer}</style><style type="text/css">body.hw-cc-modal-visible-64d68b61-f5d9-4025-a6d8-88b88d06a855 { overflow: hidden; }</style></head>
+
+<body class="post-template-default single single-post postid-17798 single-format-standard fixed-nav-mob">
+<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-5SBPW8G' height='0' width='0' style='display:none;
+	visibility:hidden'></iframe></noscript><script>dataLayer.push({ "event": "EventGeneric", "EventCat": "Load", "EventAction": "Tag", "EventLibelle": "bureautique"});dataLayer.push({ "event": "EventGeneric", "EventCat": "Load", "EventAction": "Categorie", "EventLibelle": "web"});</script>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#primary">Aller au contenu</a>
+
+	<header id="main-menu" class="site-header bg-white sticky-top">
+	<div class="container-fluid px-xl-5">
+		<div class="row justify-content-between align-items-center">
+
+			<div class="site-branding col-auto nostyle">
+
+	
+		<div class="navbar-logo">
+			<a class="navbar-brand bdm-logo custom-logo-link" rel="home" href="https://www.blogdumoderateur.com/" title="BDM" aria-current="page">
+				<svg xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+   <path d="M127.65 26.3387C132.528 28.8579 134.969 33.0445 134.971 38.8983C134.971 43.8841 133.275 47.6469 129.883 50.1868C126.491 52.7266 122.048 53.9977 116.554 54H96.5981C96.4767 54.0005 96.3563 53.9769 96.244 53.9306C96.1316 53.8843 96.0296 53.8162 95.9437 53.7303C95.8578 53.6444 95.7897 53.5424 95.7435 53.4301C95.6972 53.3177 95.6736 53.1974 95.674 53.0759V0.992808C95.6723 0.871759 95.6956 0.751656 95.7422 0.63996C95.7889 0.528265 95.8581 0.427365 95.9454 0.34353C96.0302 0.256424 96.1317 0.187449 96.2439 0.140796C96.3561 0.0941425 96.4766 0.0707837 96.5981 0.0721382H115.939C128.114 0.0721382 134.201 5.00413 134.201 14.8681C134.201 20.0051 132.018 23.6775 127.65 25.8852C127.341 26.0329 127.341 26.1875 127.65 26.3387ZM106.537 9.77352V21.7972C106.53 21.8496 106.535 21.903 106.552 21.953C106.569 22.0031 106.598 22.0485 106.635 22.0857C106.673 22.1229 106.719 22.151 106.769 22.1677C106.819 22.1844 106.872 22.1893 106.925 22.1819H115.939C118.353 22.1819 120.228 21.6174 121.563 20.4883C122.898 19.3592 123.566 17.8179 123.566 15.8644C123.566 13.8627 122.898 12.2836 121.563 11.127C120.228 9.97048 118.353 9.3922 115.939 9.3922H106.925C106.873 9.38499 106.82 9.38982 106.77 9.40633C106.72 9.42284 106.674 9.45057 106.637 9.48741C106.599 9.52425 106.571 9.56919 106.553 9.6188C106.536 9.6684 106.53 9.72133 106.537 9.77352ZM122.102 42.7905C123.437 41.5836 124.105 39.9266 124.105 37.8196C124.105 35.7126 123.437 34.0567 122.102 32.8521C120.767 31.6474 118.892 31.044 116.478 31.0417H106.925C106.872 31.0343 106.819 31.0392 106.769 31.0559C106.719 31.0726 106.673 31.1007 106.635 31.1379C106.598 31.1751 106.569 31.2205 106.552 31.2706C106.535 31.3206 106.53 31.374 106.537 31.4264V44.2162C106.53 44.2686 106.535 44.3219 106.552 44.372C106.569 44.422 106.598 44.4674 106.635 44.5047C106.673 44.5419 106.719 44.57 106.769 44.5867C106.819 44.6034 106.872 44.6082 106.925 44.6009H116.544C118.914 44.6009 120.767 43.9975 122.102 42.7905Z" fill="#080B50" class="logo-text"></path>
+   <path d="M143.714 53.7321C143.627 53.6468 143.558 53.5445 143.512 53.4317C143.466 53.3188 143.443 53.1978 143.446 53.0759V0.992814C143.444 0.872098 143.467 0.752325 143.513 0.640729C143.559 0.529134 143.627 0.428034 143.714 0.343536C143.799 0.256007 143.901 0.186787 144.014 0.14012C144.127 0.0934525 144.248 0.0703213 144.37 0.0721443H163.632C167.486 0.0721443 170.863 0.753485 173.763 2.11617C176.513 3.34633 178.853 5.33835 180.506 7.85661C182.123 10.411 182.954 13.3845 182.894 16.4072V37.6753C182.953 40.6978 182.122 43.6711 180.506 46.2258C178.853 48.7441 176.513 50.7361 173.763 51.9663C170.863 53.3267 167.486 54.0069 163.632 54.0069H144.37C144.247 54.0093 144.126 53.9861 144.013 53.9388C143.9 53.8914 143.798 53.821 143.714 53.7321ZM154.707 44.6799H164.03C166.394 44.6799 168.307 43.8784 169.771 42.2752C171.234 40.6721 171.992 38.541 172.045 35.8821V18.1729C172.045 15.5048 171.313 13.3726 169.85 11.7763C168.386 10.18 166.421 9.37846 163.955 9.37159H154.693C154.641 9.36485 154.588 9.37016 154.538 9.38711C154.488 9.40406 154.443 9.43221 154.406 9.46937C154.369 9.50654 154.341 9.55174 154.324 9.60149C154.307 9.65124 154.302 9.70422 154.308 9.75635V44.2918C154.301 44.3441 154.306 44.3975 154.323 44.4477C154.339 44.4979 154.367 44.5436 154.405 44.5811C154.442 44.6187 154.487 44.6472 154.537 44.6643C154.587 44.6815 154.641 44.6868 154.693 44.6799H154.707Z" fill="#080B50" class="logo-text"></path>
+   <path d="M226.811 0.0652722H235.825C235.947 0.0634492 236.069 0.0865804 236.181 0.133248C236.294 0.179915 236.396 0.249135 236.481 0.336663C236.569 0.421791 236.638 0.523899 236.685 0.636728C236.732 0.749556 236.755 0.870727 236.753 0.992812V53.0759C236.755 53.198 236.732 53.3191 236.685 53.432C236.638 53.5448 236.569 53.6469 236.481 53.732C236.397 53.8198 236.295 53.8889 236.182 53.9351C236.069 53.9812 235.947 54.0033 235.825 54H226.811C226.69 54.0032 226.569 53.9811 226.456 53.9349C226.344 53.8888 226.242 53.8197 226.158 53.732C226.07 53.6474 226 53.5454 225.954 53.4325C225.907 53.3195 225.884 53.1981 225.887 53.0759V19.097C225.887 18.8943 225.835 18.7913 225.732 18.7913C225.629 18.7913 225.526 18.8668 225.427 19.0214L217.257 31.8112C217.151 32.0021 216.994 32.1603 216.804 32.2687C216.613 32.377 216.397 32.4315 216.179 32.4261H211.634C211.415 32.4315 211.199 32.377 211.009 32.2687C210.819 32.1603 210.662 32.0021 210.555 31.8112L202.386 19.0214C202.286 18.8668 202.183 18.8016 202.08 18.8291C201.977 18.8565 201.925 18.9699 201.925 19.1726V53.0759C201.927 53.1976 201.904 53.3184 201.858 53.4312C201.812 53.5439 201.744 53.6463 201.658 53.7324C201.572 53.8185 201.469 53.8865 201.357 53.9325C201.244 53.9784 201.123 54.0014 201.001 54H191.987C191.865 54.0033 191.744 53.9812 191.631 53.9351C191.518 53.8889 191.416 53.8198 191.331 53.732C191.244 53.6467 191.175 53.5445 191.129 53.4317C191.083 53.3188 191.06 53.1978 191.063 53.0759V0.992812C191.064 0.870855 191.089 0.75033 191.138 0.638664C191.187 0.526998 191.259 0.426558 191.348 0.343534C191.433 0.256005 191.535 0.186785 191.648 0.140118C191.761 0.093451 191.882 0.0703199 192.004 0.0721428H201.001C201.22 0.0671702 201.436 0.121768 201.626 0.230089C201.816 0.338409 201.973 0.496374 202.08 0.687067L213.637 18.6401C213.792 18.947 213.947 18.947 214.1 18.6401L225.732 0.687067C225.839 0.495345 225.995 0.3362 226.185 0.22667C226.375 0.11714 226.592 0.0613498 226.811 0.0652722Z" fill="#080B50" class="logo-text"></path>
+   <path d="M37.4967 13.305L29.8874 1.05808C29.6856 0.734332 29.4047 0.467301 29.0711 0.282163C28.7375 0.0970253 28.3623 -0.00012207 27.9808 -0.00012207C27.5993 -0.00012207 27.2241 0.0970253 26.8905 0.282163C26.5569 0.467301 26.276 0.734332 26.0742 1.05808L0.343552 42.4092C0.130468 42.7489 0.0123313 43.1395 0.00143839 43.5403C-0.00945449 43.9412 0.087295 44.3376 0.281616 44.6883C0.475936 45.0391 0.760724 45.3314 1.10633 45.5347C1.45194 45.738 1.84574 45.845 2.24673 45.8445H17.2591L37.4967 13.305Z" fill="#7CFFCE" class="logo-shape-2"></path>
+   <path d="M79.0985 50.5715L53.3748 9.22043C53.1729 8.89668 52.892 8.62965 52.5584 8.44451C52.2249 8.25937 51.8497 8.16222 51.4682 8.16222C51.0866 8.16222 50.7114 8.25937 50.3779 8.44451C50.0443 8.62965 49.7634 8.89668 49.5615 9.22043L23.8343 50.5715C23.6211 50.9115 23.5029 51.3024 23.4922 51.7035C23.4815 52.1047 23.5785 52.5013 23.7732 52.8522C23.968 53.2031 24.2532 53.4953 24.5993 53.6984C24.9454 53.9014 25.3397 54.008 25.7409 54.0069H77.1954C77.5963 54.0074 77.9901 53.9004 78.3357 53.697C78.6814 53.4937 78.9661 53.2014 79.1605 52.8507C79.3548 52.4999 79.4515 52.1035 79.4406 51.7027C79.4297 51.3018 79.3116 50.9112 79.0985 50.5715Z" fill="#024EF5" class="logo-shape-1"></path>
+</svg>			</a>
+		</div>
+
+	<!-- end custom logo -->
+</div><!-- .site-branding -->
+
+			<nav id="site-navigation" class="main-navigation col-auto d-flex align-items-center">
+
+				<div id="nav-container" class="d-flex">
+					<div class="menu-menu-principal-v6-container"><ul id="primary-menu" class="ls-inline d-none d-xl-flex"><li id="menu-item-93986" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-93986"><a href="https://www.blogdumoderateur.com/web/" class="nostyle t-menu">Web</a></li>
+<li id="menu-item-93989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93989"><a href="https://www.blogdumoderateur.com/marketing/" class="nostyle t-menu">Marketing</a></li>
+<li id="menu-item-93987" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93987"><a href="https://www.blogdumoderateur.com/social/" class="nostyle t-menu">Social</a></li>
+<li id="menu-item-93988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93988"><a href="https://www.blogdumoderateur.com/tech/" class="nostyle t-menu">Tech</a></li>
+<li id="menu-item-93990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93990"><a href="https://www.blogdumoderateur.com/tools/?utm_source=blogdumoderateur&amp;utm_medium=siteweb&amp;utm_content=header&amp;utm_term=tools" class="nostyle t-menu">Tools</a></li>
+</ul></div>		
+											<div id="single-share" class="sharing-container d-xl-none">
+							
+		<button class="sharing-button sharing-menu" aria-label="Partager l'article" data-action="article" data-related="Thom404" data-url="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/" data-media="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg" data-title="70 raccourcis clavier ALT pour insérer un caractère spécial" data-slug="raccourcis-clavier-alt-caractere-special">
+			<svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#share"></use></svg>		</button>
+
+								</div>
+					
+					<button id="menu-toggle" data-id="overlay-menu" aria-label="Open menu" aria-controls="primary-menu" aria-expanded="false" class="">
+
+						<span id="search-toggle" class="d-none d-xl-block">
+							<svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#search"></use></svg>							<span class="search-close"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#close"></use></svg></span>
+						</span>
+
+						<span id="mobile-toggle" class="d-xl-none">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+						
+					</button>
+
+				</div><!-- #nav-container -->
+
+
+
+			</nav><!-- #site-navigation -->
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<div class="progress fixed-progressbar"><div style="width: 13.4078%;"></div></div>
+
+	<div id="overlay-menu" class="bg-blue">
+
+	<div class="site-header bg-blue sticky-top">
+		<div class="container-fluid px-xl-5">
+			<div class="row justify-content-between align-items-center">
+
+				<div class="site-branding-overlay">
+
+	
+		<div class="navbar-logo">
+			<a class="navbar-brand bdm-logo custom-logo-link" rel="home" href="https://www.blogdumoderateur.com/" title="BDM" aria-current="page" tabindex="-1">
+				<svg xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+   <path d="M127.65 26.3387C132.528 28.8579 134.969 33.0445 134.971 38.8983C134.971 43.8841 133.275 47.6469 129.883 50.1868C126.491 52.7266 122.048 53.9977 116.554 54H96.5981C96.4767 54.0005 96.3563 53.9769 96.244 53.9306C96.1316 53.8843 96.0296 53.8162 95.9437 53.7303C95.8578 53.6444 95.7897 53.5424 95.7435 53.4301C95.6972 53.3177 95.6736 53.1974 95.674 53.0759V0.992808C95.6723 0.871759 95.6956 0.751656 95.7422 0.63996C95.7889 0.528265 95.8581 0.427365 95.9454 0.34353C96.0302 0.256424 96.1317 0.187449 96.2439 0.140796C96.3561 0.0941425 96.4766 0.0707837 96.5981 0.0721382H115.939C128.114 0.0721382 134.201 5.00413 134.201 14.8681C134.201 20.0051 132.018 23.6775 127.65 25.8852C127.341 26.0329 127.341 26.1875 127.65 26.3387ZM106.537 9.77352V21.7972C106.53 21.8496 106.535 21.903 106.552 21.953C106.569 22.0031 106.598 22.0485 106.635 22.0857C106.673 22.1229 106.719 22.151 106.769 22.1677C106.819 22.1844 106.872 22.1893 106.925 22.1819H115.939C118.353 22.1819 120.228 21.6174 121.563 20.4883C122.898 19.3592 123.566 17.8179 123.566 15.8644C123.566 13.8627 122.898 12.2836 121.563 11.127C120.228 9.97048 118.353 9.3922 115.939 9.3922H106.925C106.873 9.38499 106.82 9.38982 106.77 9.40633C106.72 9.42284 106.674 9.45057 106.637 9.48741C106.599 9.52425 106.571 9.56919 106.553 9.6188C106.536 9.6684 106.53 9.72133 106.537 9.77352ZM122.102 42.7905C123.437 41.5836 124.105 39.9266 124.105 37.8196C124.105 35.7126 123.437 34.0567 122.102 32.8521C120.767 31.6474 118.892 31.044 116.478 31.0417H106.925C106.872 31.0343 106.819 31.0392 106.769 31.0559C106.719 31.0726 106.673 31.1007 106.635 31.1379C106.598 31.1751 106.569 31.2205 106.552 31.2706C106.535 31.3206 106.53 31.374 106.537 31.4264V44.2162C106.53 44.2686 106.535 44.3219 106.552 44.372C106.569 44.422 106.598 44.4674 106.635 44.5047C106.673 44.5419 106.719 44.57 106.769 44.5867C106.819 44.6034 106.872 44.6082 106.925 44.6009H116.544C118.914 44.6009 120.767 43.9975 122.102 42.7905Z" fill="#080B50" class="logo-text"></path>
+   <path d="M143.714 53.7321C143.627 53.6468 143.558 53.5445 143.512 53.4317C143.466 53.3188 143.443 53.1978 143.446 53.0759V0.992814C143.444 0.872098 143.467 0.752325 143.513 0.640729C143.559 0.529134 143.627 0.428034 143.714 0.343536C143.799 0.256007 143.901 0.186787 144.014 0.14012C144.127 0.0934525 144.248 0.0703213 144.37 0.0721443H163.632C167.486 0.0721443 170.863 0.753485 173.763 2.11617C176.513 3.34633 178.853 5.33835 180.506 7.85661C182.123 10.411 182.954 13.3845 182.894 16.4072V37.6753C182.953 40.6978 182.122 43.6711 180.506 46.2258C178.853 48.7441 176.513 50.7361 173.763 51.9663C170.863 53.3267 167.486 54.0069 163.632 54.0069H144.37C144.247 54.0093 144.126 53.9861 144.013 53.9388C143.9 53.8914 143.798 53.821 143.714 53.7321ZM154.707 44.6799H164.03C166.394 44.6799 168.307 43.8784 169.771 42.2752C171.234 40.6721 171.992 38.541 172.045 35.8821V18.1729C172.045 15.5048 171.313 13.3726 169.85 11.7763C168.386 10.18 166.421 9.37846 163.955 9.37159H154.693C154.641 9.36485 154.588 9.37016 154.538 9.38711C154.488 9.40406 154.443 9.43221 154.406 9.46937C154.369 9.50654 154.341 9.55174 154.324 9.60149C154.307 9.65124 154.302 9.70422 154.308 9.75635V44.2918C154.301 44.3441 154.306 44.3975 154.323 44.4477C154.339 44.4979 154.367 44.5436 154.405 44.5811C154.442 44.6187 154.487 44.6472 154.537 44.6643C154.587 44.6815 154.641 44.6868 154.693 44.6799H154.707Z" fill="#080B50" class="logo-text"></path>
+   <path d="M226.811 0.0652722H235.825C235.947 0.0634492 236.069 0.0865804 236.181 0.133248C236.294 0.179915 236.396 0.249135 236.481 0.336663C236.569 0.421791 236.638 0.523899 236.685 0.636728C236.732 0.749556 236.755 0.870727 236.753 0.992812V53.0759C236.755 53.198 236.732 53.3191 236.685 53.432C236.638 53.5448 236.569 53.6469 236.481 53.732C236.397 53.8198 236.295 53.8889 236.182 53.9351C236.069 53.9812 235.947 54.0033 235.825 54H226.811C226.69 54.0032 226.569 53.9811 226.456 53.9349C226.344 53.8888 226.242 53.8197 226.158 53.732C226.07 53.6474 226 53.5454 225.954 53.4325C225.907 53.3195 225.884 53.1981 225.887 53.0759V19.097C225.887 18.8943 225.835 18.7913 225.732 18.7913C225.629 18.7913 225.526 18.8668 225.427 19.0214L217.257 31.8112C217.151 32.0021 216.994 32.1603 216.804 32.2687C216.613 32.377 216.397 32.4315 216.179 32.4261H211.634C211.415 32.4315 211.199 32.377 211.009 32.2687C210.819 32.1603 210.662 32.0021 210.555 31.8112L202.386 19.0214C202.286 18.8668 202.183 18.8016 202.08 18.8291C201.977 18.8565 201.925 18.9699 201.925 19.1726V53.0759C201.927 53.1976 201.904 53.3184 201.858 53.4312C201.812 53.5439 201.744 53.6463 201.658 53.7324C201.572 53.8185 201.469 53.8865 201.357 53.9325C201.244 53.9784 201.123 54.0014 201.001 54H191.987C191.865 54.0033 191.744 53.9812 191.631 53.9351C191.518 53.8889 191.416 53.8198 191.331 53.732C191.244 53.6467 191.175 53.5445 191.129 53.4317C191.083 53.3188 191.06 53.1978 191.063 53.0759V0.992812C191.064 0.870855 191.089 0.75033 191.138 0.638664C191.187 0.526998 191.259 0.426558 191.348 0.343534C191.433 0.256005 191.535 0.186785 191.648 0.140118C191.761 0.093451 191.882 0.0703199 192.004 0.0721428H201.001C201.22 0.0671702 201.436 0.121768 201.626 0.230089C201.816 0.338409 201.973 0.496374 202.08 0.687067L213.637 18.6401C213.792 18.947 213.947 18.947 214.1 18.6401L225.732 0.687067C225.839 0.495345 225.995 0.3362 226.185 0.22667C226.375 0.11714 226.592 0.0613498 226.811 0.0652722Z" fill="#080B50" class="logo-text"></path>
+   <path d="M37.4967 13.305L29.8874 1.05808C29.6856 0.734332 29.4047 0.467301 29.0711 0.282163C28.7375 0.0970253 28.3623 -0.00012207 27.9808 -0.00012207C27.5993 -0.00012207 27.2241 0.0970253 26.8905 0.282163C26.5569 0.467301 26.276 0.734332 26.0742 1.05808L0.343552 42.4092C0.130468 42.7489 0.0123313 43.1395 0.00143839 43.5403C-0.00945449 43.9412 0.087295 44.3376 0.281616 44.6883C0.475936 45.0391 0.760724 45.3314 1.10633 45.5347C1.45194 45.738 1.84574 45.845 2.24673 45.8445H17.2591L37.4967 13.305Z" fill="#7CFFCE" class="logo-shape-2"></path>
+   <path d="M79.0985 50.5715L53.3748 9.22043C53.1729 8.89668 52.892 8.62965 52.5584 8.44451C52.2249 8.25937 51.8497 8.16222 51.4682 8.16222C51.0866 8.16222 50.7114 8.25937 50.3779 8.44451C50.0443 8.62965 49.7634 8.89668 49.5615 9.22043L23.8343 50.5715C23.6211 50.9115 23.5029 51.3024 23.4922 51.7035C23.4815 52.1047 23.5785 52.5013 23.7732 52.8522C23.968 53.2031 24.2532 53.4953 24.5993 53.6984C24.9454 53.9014 25.3397 54.008 25.7409 54.0069H77.1954C77.5963 54.0074 77.9901 53.9004 78.3357 53.697C78.6814 53.4937 78.9661 53.2014 79.1605 52.8507C79.3548 52.4999 79.4515 52.1035 79.4406 51.7027C79.4297 51.3018 79.3116 50.9112 79.0985 50.5715Z" fill="#024EF5" class="logo-shape-1"></path>
+</svg>			</a>
+		</div>
+
+	<!-- end custom logo -->
+</div>
+
+				
+			</div>
+		</div>
+		<div class="progress fixed-progressbar"></div>
+	</div>
+
+	<div class="container-fluid x-padding">
+
+		<div class="row my-md-5 my-4_2">
+			<div class="col-md-8 col-xl-6">
+
+				<div class="menu-menu-principal-v6-container"><ul id="mobile-primary-menu" class="nostyle ls-none d-xl-none mb-5"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-93986"><a href="https://www.blogdumoderateur.com/web/" class="nostyle t-menu" tabindex="-1">Web</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93989"><a href="https://www.blogdumoderateur.com/marketing/" class="nostyle t-menu" tabindex="-1">Marketing</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93987"><a href="https://www.blogdumoderateur.com/social/" class="nostyle t-menu" tabindex="-1">Social</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93988"><a href="https://www.blogdumoderateur.com/tech/" class="nostyle t-menu" tabindex="-1">Tech</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93990"><a href="https://www.blogdumoderateur.com/tools/?utm_source=blogdumoderateur&amp;utm_medium=siteweb&amp;utm_content=header&amp;utm_term=tools" class="nostyle t-menu" tabindex="-1">Tools</a></li>
+</ul></div>			
+				<div class="post-search pb-5">
+
+					<p class="h1 color-g mb-3">Trouver un article</p>
+
+					
+<form role="search" method="get" class="search-form mb-3" action="https://www.blogdumoderateur.com/">
+	<div class="d-flex">
+		<label>
+			<span class="screen-reader-text" tabindex="-1">Rechercher&nbsp;:</span>
+			<input type="search" class="search-field search-autocomplete" name="s" autocomplete="off" placeholder="Rechercher…" tabindex="-1">
+		</label>
+		<button type="submit" class="search-submit m-0" aria-label="Rechercher" tabindex="-1"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#search"></use></svg></button>
+	</div>
+</form>	
+
+					<p class="h3bis color-w mt-4_2">Thèmes populaires</p>
+
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/tbbtyr/" class="e-link badge badge-blue" tabindex="-1">Google</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/fgengrtvr-qvtvgnyr/" class="e-link badge badge-blue" tabindex="-1">Stratégie digitale</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/snprobbx/" class="e-link badge badge-blue" tabindex="-1">Facebook</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/qbaarrf-crefbaaryyrf/" class="e-link badge badge-blue" tabindex="-1">Données personnelles</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/vafgntenz/" class="e-link badge badge-blue" tabindex="-1">Instagram</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/r-pbzzrepr/" class="e-link badge badge-blue" tabindex="-1">E-commerce</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/cebqhpgvivgr/" class="e-link badge badge-blue" tabindex="-1">Productivité</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/rghqr/" class="e-link badge badge-blue" tabindex="-1">Étude</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/graqnaprf/" class="e-link badge badge-blue" tabindex="-1">Tendances</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/geninvyyre-qvtvgny/" class="e-link badge badge-blue" tabindex="-1">Travailler dans le digital</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/gjvggre/" class="e-link badge badge-blue" tabindex="-1">Twitter</span>
+											<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/qbffvre/sbezngvba/" class="e-link badge badge-blue" tabindex="-1">Formation</span>
+					
+				</div>
+
+			</div><!-- .col -->
+		</div><!-- .row -->
+	</div><!-- .container -->
+	
+</div><!-- #single-menu -->
+
+</header><!-- #masthead -->
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			<div class="post-content" data-id="17798" data-nonce="a3682469c6" data-slug="raccourcis-clavier-alt-caractere-special" data-tax="382" data-elem="1" data-viewpt="7">
+
+			
+<article id="post-17798" class="container content-article post-17798 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique">
+
+	
+
+<header class="entry-header article-header text-center my-md-5 my-4_2">
+
+	<h1 class="entry-title mb-4_2">70 raccourcis clavier ALT pour insérer un caractère spécial</h1>
+	
+		<div class="article-hat t-quote">
+
+			<p>Découvrez 70 raccourcis clavier ALT pour intégrer des caractères spéciaux rapidement, sans devoir les copier-coller. </p>
+
+		</div><!-- .article-hat -->
+
+	
+	<div class="article-social-content">
+
+		
+		<button class="sharing-button btn" aria-label="Partager l'article" data-action="article" data-related="Thom404" data-url="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/" data-media="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg" data-title="70 raccourcis clavier ALT pour insérer un caractère spécial" data-slug="raccourcis-clavier-alt-caractere-special">
+			Partager l'article		</button>
+
+		
+	</div><!-- .article-social-content -->
+
+	<div class="entry-meta article-meta pb-4_2">
+
+		<span class="byline">Thomas Coëffé</span> / <span class="posted-on">Publié le <time class="entry-date published updated" datetime="2014-01-15T15:04:01+01:00">15 janvier 2014 à 15h04</time>, mis à jour le <time class="updated" datetime="2021-07-07T13:24:54+02:00">7 juillet 2021 à 13h24</time></span>
+	</div><!-- .entry-meta -->
+
+	
+		<figure aria-describedby="caption-attachment-17798" class="article-hat-img ">
+
+			
+				
+					<img src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag.jpeg" class="mx-auto d-block wp-post-image entered lazyloaded" alt="Alt option symbol keyboard key button  background and texture, side view" data-lazy-srcset="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg 1200w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-294x181.jpeg 294w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-664x409.jpeg 664w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-768x473.jpeg 768w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-150x92.jpeg 150w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-208x128.jpeg 208w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg" data-ll-status="loaded" sizes="(max-width: 1200px) 100vw, 1200px" srcset="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag.jpeg 1200w, 70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag-294x181.jpeg 294w, 70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag-664x409.jpeg 664w, 70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag-768x473.jpeg 768w, 70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag-150x92.jpeg 150w, 70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/alt-imag-208x128.jpeg 208w" width="1200" height="739"><noscript><img width="1200" height="739" src="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg" class="mx-auto d-block wp-post-image" alt="Alt option symbol keyboard key button  background and texture, side view" srcset="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg 1200w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-294x181.jpeg 294w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-664x409.jpeg 664w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-768x473.jpeg 768w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-150x92.jpeg 150w, https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag-208x128.jpeg 208w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>
+				
+			
+			
+				<figcaption id="caption-attachment-17798" class="legend">Vous pouvez
+ intégrer des lettres accentuées, des flèches et des caractères spéciaux
+ depuis votre clavier. © dule964 - stock.adobe.com</figcaption>
+
+			
+		</figure>
+
+	
+</header><!-- .entry-header -->
+
+	<div class="entry-content row justify-content-center">
+
+		<div class="col-12 pb-5">
+
+			<p style="text-align: justify;">Sur ce point, l’Académie Française 
+est formelle : en français, l’accent a pleine valeur orthographique. 
+Contrairement à ce que certains ont appris à l’école, les majuscules 
+doivent donc être accentuées. Et je peux vous l’assurer : cela facilite 
+la vie de ceux dont le nom de famille comprend une lettre comportant un 
+accent. Malheureusement, il suffit de regarder un clavier d’ordinateur 
+pour se rendre compte que les majuscules accentuées ne sont pas 
+facilement accessibles…</p>
+<p style="text-align: justify;">Tout comme les très nombreux caractères 
+spéciaux qui façonnent notre écriture, comme les fameux æ et œ collés. 
+Heureusement, il existe une parade ! Les ordinateurs qui tournent sous 
+Windows supporte en effet une astuce de taille : des raccourcis clavier 
+pour chaque caractère spécial. Ainsi, en quelques secondes, vous pouvez 
+insérer un É majuscule, un À majuscule ou même un Œ majuscule. De 
+nombreux symboles sont également proposés par ce biais, comme ™, ©, ®, €
+ et même quelques notes de musique : ♪ et ♫.</p>
+<p style="text-align: justify;">Il suffit de maintenir la touche ALT, 
+puis de saisir le code correspondant au caractère spécial grâce au pavé 
+numérique. Voici les principaux raccourcis clavier à connaître pour 
+insérer un caractère spécial !</p>
+<h2><strong>Insérer une majuscule accentuée</strong></h2>
+<ul>
+<li>ALT+128 : Ç (ç cédille majuscule)</li>
+<li>ALT+142 : Ä (ä tréma majuscule)</li>
+<li>ALT+143 : Å (å majuscule diacrité d’un rond en chef)</li>
+<li>ALT+144 : É (é accent aigu majuscule)</li>
+<li>ALT+146 : Æ (ae collés majuscule)</li>
+<li>ALT+153 : Ö (ö tréma majuscule)</li>
+<li>ALT+154 : Ü (ü tréma majuscule)</li>
+<li>ALT+165 : Ñ (eñe, le n espagnol en majuscule)</li>
+<li>ALT+183 : À (à accent grave majuscule)</li>
+<li>ALT+212 : È (è accent grave majuscule)</li>
+<li>ALT+0140 : Œ (oe collés)</li>
+</ul>
+<h2><strong>Insérer un caractère spécial ou accentué</strong></h2>
+<ul>
+<li>ALT+134 : å (a diacrité d’un rond en chef)</li>
+<li>ALT+141 : ì (i accent grave)</li>
+<li>ALT+145 : æ (ae collés)</li>
+<li>ALT+149 : ò (o accent grave)</li>
+<li>ALT+152 : ÿ (y tréma)</li>
+<li>ALT+155 : ø (o barré)</li>
+<li>ALT+157 : Ø (o barré majuscule)</li>
+<li>ALT+160 : á (a accent aigu)</li>
+<li>ALT+161 : í (i accent aigu)</li>
+<li>ALT+162 : ó (o accent aigu)</li>
+<li>ALT+163 : ú (u accent aigu)</li>
+<li>ALT+164 : ñ (eñe, le n espagnol)</li>
+<li>ALT+166 : ª (a en exposant)</li>
+<li>ALT+167 : º (le symbole des degrés)</li>
+<li>ALT+167 : ¿ (un point d’interrogation inversé)</li>
+<li>ALT+173 : ¡ (un point d’exclamation inversé)</li>
+<li>ALT+0156 : œ (oe collés)</li>
+</ul>
+<h2><strong>Insérer un symbole mathématique</strong></h2>
+<ul>
+<li>ALT+159 : ƒ (fonction)</li>
+<li>ALT+171 : ½ (un demi)</li>
+<li>ALT+172 : ¼ (un quart)</li>
+<li>ALT+241 : ± (plus ou moins)</li>
+<li>ALT+243 : ¾ (trois quarts)</li>
+<li>ALT+246 : ÷ (symbole divisé par)</li>
+<li>ALT+251 : ¹ (1 en exposant)</li>
+<li>ALT+252 : ³ (3 en exposant)</li>
+<li>ALT+253 : ² (2 en exposant)</li>
+<li>ALT+0137 : ‰ (symbole pour mille)</li>
+</ul>
+<h2><strong>&nbsp;Insérer une flèche</strong></h2>
+<ul>
+<li>ALT+23 : ↨ (double flèche verticale)</li>
+<li>ALT+24 : ↑ (flèche vers le haut)</li>
+<li>ALT+25 : ↓ (flèche vers le bas)</li>
+<li>ALT+26 : → (flèche vers la droite)</li>
+<li>ALT+27 : ← (flèche vers la gauche)</li>
+<li>ALT+29 : ↔ (double flèche horizontale)</li>
+<li>ALT+16 : ► (grosse flèche vers la droite)</li>
+<li>ALT+17 : ◄ (grosse flèche vers la gauche)</li>
+<li>ALT+30 : ▲ (grosse flèche vers le haut)</li>
+<li>ALT+31 : ▼ (grosse flèche vers le bas)</li>
+</ul>
+<h2><strong>Insérer un symbole</strong></h2>
+<ul>
+<li>ALT+20 : ¶ (retour chariot)</li>
+<li>ALT+21 : § (paragraphe)</li>
+<li>ALT+1 : ☺ (smiley blanc)</li>
+<li>ALT+2 : ☻ (smiley noir)</li>
+<li>ALT+3 : ♥ (cœur)</li>
+<li>ALT+4 : ♦ (carreau)</li>
+<li>ALT+5 : ♣ (trèfle)</li>
+<li>ALT+6 : ♠ (pic)</li>
+<li>ALT+7 : • (bullet point)</li>
+<li>ALT+9 : ○ (point blanc)</li>
+<li>ALT+11 : ♂ (homme)</li>
+<li>ALT+12 : ♀ (femme)</li>
+<li>ALT+13 : ♪ (note de musique : croche)</li>
+<li>ALT+14 : ♫ (note de musique : deux croches)</li>
+<li>ALT+15 : ☼ (soleil)</li>
+<li>ALT+0128 : € (symbole euro)</li>
+<li>ALT+0147 : “ (ouverture des guillemets anglais)</li>
+<li>ALT+0148 : ” (fermeture des guillemets anglais)</li>
+<li>ALT+0153 : ™ (symbole TM exposant, trademark, marque déposée)</li>
+<li>ALT+0164 : ¤ (symbole monétaire)</li>
+<li>ALT+0169 : © (symbole c entouré, copyright)</li>
+<li>ALT+0174 : ® (symbole R entouré, marque)</li>
+</ul>
+
+		</div><!-- .col-12 -->
+
+	</div><!-- .entry-content -->
+
+</article><!-- #post-17798 -->
+
+<div class="meta-container bg-grey pt-md-5 pt-4_2 pb-md-4 pb-0 mb-md-5">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12">
+				<div class="article-tag">
+
+					<span class="h">Sujets liés :</span>
+					<ul class="tags-list ls-inline"><li><a href="https://www.blogdumoderateur.com/dossier/bureautique/" class="post-tags" title="Bureautique">Bureautique</a></li></ul>
+				</div><!-- .article-tag -->
+
+				
+		<button class="sharing-button btn" aria-label="Partager l'article" data-action="article" data-related="Thom404" data-url="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/" data-media="https://f.hellowork.com/blogdumoderateur/2014/01/alt-imag.jpeg" data-title="70 raccourcis clavier ALT pour insérer un caractère spécial" data-slug="raccourcis-clavier-alt-caractere-special">
+			Partager l'article		</button>
+
+		
+				<a href="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/#comment-open" class="cta btn outline comment-toggle comment-reply" data-form="comments-17798">	<span>53 commentaires</span></a>				
+				
+<div class="comments-section">
+	<div class="row justify-content-center">
+
+		<div id="comments-17798" class="comments-area col-xl-12 has-comment">
+
+							<div class="list-comments col-lg-6">
+					<div class="comments-title h3bis">
+						Commentaires (53)					</div><!-- .comments-title -->
+
+					
+					<ul class="comment-list">
+									<li id="comment-403382" class="comment even thread-even depth-1">
+				<article id="div-comment-403382" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Antoine						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-01-15T15:18:02+01:00">15 janvier 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bon bah y’a plus qu’à tout apprendre par coeur !</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-403635" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-403635" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Le Bret						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-01-20T11:56:55+01:00">20 janvier 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Pour insérer une lettre accentué ou certains caractères dit spéciaux, il existe des méthodes plus simples. </p>
+<p>D’abord la plus radicale : utiliser un nouveau clavier ! Le clavier 
+courant dit AZERTY bien qu’utilisé seulement dans quelques pays 
+francophone (et encore pas tous) n’a pas été conçu pour le français. Des
+ alternatives ont été créée dont la plus connue est le <a href="http://bepo.fr/" rel="nofollow">clavier BÉPO </a>.</p>
+<p>Non seulement ce clavier permet de taper toutes les lettres du 
+français (dont Œ) et beaucoup de signes typographiques ( « » ¡ ¿ …) mais
+ aussi d’autre langues européennes (ð Ð  Ł …). En plus ce clavier a été 
+conçu ergonomiquement c’est-à-dire pour générer moins de fatigue que le 
+clavier classique et pour pouvoir taper plus rapidement.</p>
+<p>Autre solution : utiliser un clavier portugais ou à défaut espagnole.
+ Vous n’aurez pas toutes les lettres du français, mais plus qu’avec un 
+clavier AZERTY (quand je vous dis que ce clavier n’a pas été conçu pour 
+le français !)</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-410500" class="comment even thread-even depth-1">
+				<article id="div-comment-410500" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Reynald						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-02-26T10:44:48+01:00">26 février 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Manque le À : alt + 0192. 😉</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-456784" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-456784" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														mike						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-06-30T09:36:25+02:00">30 juin 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,<br>
+quel est le raccourcie clavier pour : ℗<br>
+merci d’avance !<br>
+Mike</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-516842" class="comment even thread-even depth-1">
+				<article id="div-comment-516842" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														rita						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-08-25T20:31:03+02:00">25 août 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,<br>
+Par quel configuration ( ALT + …… ) pourrais-je insérer<br>
+la lettre i ( comme : ile – ilot )<br>
+ou fenetre ….me manque aussi – alors les toits :)))<br>
+sorry, pls help<br>
+Thanx</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-529865" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-529865" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Thom's						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-09-14T05:44:28+02:00">14 septembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,</p>
+<p>@rita<br>
+Je n’ai plus de clavier AZERTY (qui est absurde), mais je pense qu’il 
+faut taper ^ (touche morte à côté du P) suivi de la voyelle que tu veux :
+ âêîôûÂÊÎÔÛ, comme pour ¨ (tréma) ou ~ (tilde) suivi de la 
+voyelle&nbsp;:&nbsp;äëïöüÄËÏÖÜãõÃÕ. Il me manque des voyelles, mais je 
+pense qu’elles ne sont pas utilisées.</p>
+<p>@mike<br>
+Je n’ai jamais vu ce sigle et ne le trouve nulle part.</p>
+<p>Pour ma part, après avoir utilisé un clavier AZERTY pendant plus de 
+30 ans et après un séjour aux US, je me suis converti : tous mes PC ont 
+des claviers en QWERTY déclarés en US-International. Toutes les lettres 
+accentuées sont disponibles, pratiquement sans réfléchir, presque 
+naturel. J’y ai même rajouté quelques caractères grecs ou spécifiques 
+dont je me sers assez souvent&nbsp;: αßδεΣρΩΔλΛ÷×± et autres, même 
+l’espace insécable (utilisé dans ce post) et les consonnes Ññ et les 
+ligatures œŒæÆ.<br>
+Un vrai bonheur quand je vois ce clavier AZERTY sorti de … n’importe quoi.<br>
+Il y a même un ù (utilité sans doute prouvée par le concepteur) qui, à 
+ma connaissance, n’est utilisé que dans UN seul mot français&nbsp;: où !
+ Fallait y penser&nbsp;?!?</p>
+<p>Quand je vois le nombre de questions sur les différents forums 
+concernant ces lettres (consonnes aussi bien que voyelles) accentuées, 
+je me demande pourquoi les utilisateurs ne cherchent pas autre chose. 
+C’est vrai qu’on ne propose que ça&nbsp;!&nbsp;Mais un clavier ne coûte 
+rien ( sauf portables), alors pourquoi ne pas tenter ?</p>
+<p>Je ne me sens pas trop d’apprendre le listing ‘ALT+xxx’.</p>
+<p>Bon courage et bonne continuation !<br>
+Je me sens relax 😉<br>
+Thom’s</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531066" class="comment even thread-even depth-1">
+				<article id="div-comment-531066" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														QUETTEVILLE						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-10-01T09:48:53+02:00">1 octobre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Comment imprimer dans un texte le caractère Windows (2è gauche en bas clavier).<br>
+Merci</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531466" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-531466" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Jenna						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-10-24T19:43:24+02:00">24 octobre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>C’est trop génial et moi qui devais faire tout un chichi pour posté un soleil , un cœr,…<br>
+C’est top ! Merci Merci !</p>
+<p>Jenna Qui Est Heureuse ♥☻☻</p>
+<p>( Je voudrais savoir comment on fait un «&nbsp;b&nbsp;» bizzare en Allemand vous pouvez me répondre ?&nbsp;»</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531544" class="comment even thread-even depth-1">
+				<article id="div-comment-531544" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Sateregardepas						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-11-02T15:49:48+01:00">2 novembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Le coeur j’arrive pas 🙁</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531808" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-531808" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Sally						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-11-28T16:57:13+01:00">28 novembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Cool finx j’en avai besoin</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531818" class="comment even thread-even depth-1">
+				<article id="div-comment-531818" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														I4U						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-11-30T22:38:12+01:00">30 novembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Sympa, mais comment fait-on avec un clavier sans pavé numérique!</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531832" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-531832" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														I4U						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-12-02T10:29:05+01:00">2 décembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>La méthode en vaut une autre, elle mérite d’exister, mais 
+comment fait-on sur un clavier sans pavé numérique (pas même de pavé 
+numérique intégré)?</p>
+<p>N’existe-t-il pas une méthode d’entrée alternative qui, en partant de
+ l’Azerty français, intègre les majuscules accentuées, les lettres 
+collées et les signes typographiques dans les nombreuses combinaisons 
+(alt graphique) qui ne sont pas utilisées?</p>
+<p>La question serait plutôt: est-il possible de créer simplement une méthode d’entrée dérivée d’une méthode existante?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-531908" class="comment even thread-even depth-1">
+				<article id="div-comment-531908" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Skrol29						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-12-12T14:12:18+01:00">12 décembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Pour les majuscules accentuées ainsi que les guillemets 
+français, je vous conseille le clavier MAEL. C’est pour Windows, toute 
+version, c’est standard et c’est gratuit.</p>
+<p>Plus d’explications : <a href="http://www.skrol29.com/francais.php?rub=mael" rel="nofollow ugc">http://www.skrol29.com/francais.php?rub=mael</a></p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-532030" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-532030" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														ILP						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2014-12-26T17:43:48+01:00">26 décembre 2014</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Pour les guillemets français sont faisable via les combinaisons&nbsp;:<br>
+<code>ALT+0171</code>&nbsp;: « (guillemets ouvrants)<br>
+<code>ALT+0187</code>&nbsp;: » (guillemets fermants)</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-532515" class="comment even thread-even depth-1">
+				<article id="div-comment-532515" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														kouame thierry						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-02-05T18:51:12+01:00">5 février 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Salut a tous ! j’ai un PC Portable  HP 2000 dual core clavier AZERTY<br>
+En dehors du Clavier Visuel j’arrive pas a faire sortir la Touche inférieur/supérieur à ().<br>
+Du coup lorsque je doit faire recours a ses touches il me faut activé le clavier visuel<br>
+comment faire sur le clavier physique? aidez moi SVP.<br>
+Merçi</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-532755" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-532755" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Crushieee						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-03-02T14:48:33+01:00">2 mars 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>comment on fait quand on a pas de clavier numérique ?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-532862" class="comment even thread-even depth-1">
+				<article id="div-comment-532862" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														FOLIEDOUCE17						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-03-18T04:59:11+01:00">18 mars 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>salut salut Crushieee</p>
+<p>on appuie sur la touche qui représente une flèche qui monte &nbsp;» ↑
+ «&nbsp;, celle qui est placée juste au dessus de la touche «&nbsp;ctrl 
+&nbsp;» qui elle même est placée tout en bas à gauche; de ton clavier.<br>
+en même temps tu appuies sur la touche du nombre que tu veux écrire, qui
+ se trouve sur la ligne horizontale qui est au dessus de azerty/poiu; et
+ tu relaches les 2 en même temps…enfin c’est pas à la nano seconde près.</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-533199" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-533199" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Laïla						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-05-08T16:47:43+02:00">8 mai 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Trop cool mais il faut tous apprendre par ♥<br>
+Grace à vous j’ai le smile (☻☺☻☺☻☺☻☺)<br>
+Bon ben …</p>
+<p> Merkki ♥</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-545432" class="comment even thread-even depth-1">
+				<article id="div-comment-545432" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Aurélie						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-09-24T11:49:48+02:00">24 septembre 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Uiii ♥☺</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-548602" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-548602" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														AL						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-10-04T18:00:42+02:00">4 octobre 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour à tous,</p>
+<p>    Grâce à vous et au hasard de mes recherches, j’ai pu élucider le 
+«&nbsp;mystère des symboles&nbsp;» → les symboles faciles ☺ </p>
+<p>    Merci à Thomas sur REGIONSJOB SAS ♥</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-550781" class="comment even thread-even depth-1">
+				<article id="div-comment-550781" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														lalatg						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-10-10T14:32:48+02:00">10 octobre 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>☻☺</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-556913" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-556913" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														krikri						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2015-10-30T11:05:10+01:00">30 octobre 2015</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>je trouve pas le code de celui ci: &nbsp;» ❤ &nbsp;» il et bien plus gros que le ALT+3 (♥)</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-576054" class="comment even thread-even depth-1">
+				<article id="div-comment-576054" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														cloclo596						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2016-01-21T02:23:29+01:00">21 janvier 2016</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>bonjour. merci pour cet article et cette aide.<br>
+@Thom’s<br>
+où trouver des claviers en QWERTY avec mode d emploi en français aussi 
+(ben oui je ne lis que le français). Quel est son ordre de prix pour 
+l’acheter?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-576056" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-576056" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														cloclo596						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2016-01-21T02:28:56+01:00">21 janvier 2016</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>bonjour à tout le monde. J’ai une question, importante pour moi mais qui pourrait ette utile aux autres.<br>
+où trouver et acheter des claviers en QWERTY,  BEPO, TypeMatrix …<br>
+avec mode d emploi en français aussi<br>
+et quel serait l ordre de prix d achat svp<br>
+lequel des trois serait le meilleur, avec le plus de caractères et aussi
+ facilité et rapidité d utilisation, plus facilité d apprentissage de ce
+ nouveau clavier moi qui ne connais qu ‘azerty</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-578582" class="comment even thread-even depth-1">
+				<article id="div-comment-578582" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														4sStylZ						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2016-02-03T10:52:54+01:00">3 février 2016</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>@cloclo596<br>
+Qwerty, bépo et azerty sont des «layout» c’est à dire l’organisation des touches sur un clavier.</p>
+<p>Ce n’est pas pareil que TypeMatrix est lui un fabriquant de clavier proposant avec le 2030 un modèle possédant :<br>
+1) Une organisaton des touches matricielles (c’est à dire que les 
+touches ne sont pas réparties en diagonales comme sur un clavier 
+classique).<br>
+2) Des touches de retours charriots, de suppression ou de retours «centrée» de manière à avoir des touches plus accessibles.</p>
+<p>Ce que je veux dire c’est que quelque soit la marque et le modèle de 
+clavier, tu peux l’utiliser en qwerty, azerty ou bépo (pour ce dernier 
+il faut simplement installer le pilote Français si tu est sur Windows 
+que l’on trouve sur <a href="http://bepo.fr/wiki/Installation" rel="nofollow ugc">http://bepo.fr/wiki/Installation</a> ).</p>
+<p>Pour te trouver un clavier Bépo, je ne saurai te conseiller de lire 
+cette page :&nbsp;http://bepo.fr/wiki/Claviers qui permettra de 
+t’orienter sur le modèle.</p>
+<p>Les meilleurs modèles très réputés sont le TypeMatrix 2030 ainsi que 
+le Truly Ergonomic (100 € &amp; 200 €) mais il suffit d’un set 
+d’autocollant Bépo sur n’importe quel clavier à 5 € et tu as un clavier 
+Bépo.<br>
+Tu pourra te procurer ton matériel sur le site de TypeMatrix si tu veux un TypeMatrix ou sur Amazon de manière générale.</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-578583" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-578583" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														4sStylZ						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2016-02-03T11:04:59+01:00">3 février 2016</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>@cloclo596</p>
+<p>Sinon, je te conseille de te doter d’un TypeMatrix  «Blank» c’est à 
+dire sans marquage et de deux skins. Un blanc ou noir uni sans marquage 
+sauf les caractères spéciaux si tu le souhaite et un marquage Bépo 
+blanc.</p>
+<p>Pourquoi?</p>
+<p>– Apprendre Qwerty ne sert strictement à rien tant en productivité qu’en érgonomie.</p>
+<p>– Passer à un clavier matricielle ou à Bépo est quelque chose de 
+difficile, mais l’investissement vaut le coup si on saisie toute la 
+journée, et quit à changer l’un des deux et tout réapprendre, autant se 
+doter à la fois du meilleur clavier et du meilleur «layout».</p>
+<p> – Apprendre Bépo sur un TypeMatrix (avec Klavaro par exemple) est plus simple que sur un clavier non matricielle.</p>
+<p> – Les skins rendent le clavier silencieux, sont agréables, et sont 
+même bons pour la santé de nos petits doigts. Le skin bépo sera 
+éssentiel au début, pour ne pas se décourager. Mais ensuite, un skin 
+sans marquage sur un typematrix 2030 c’est tout simplement le meilleur 
+moyen de gagner en vitesse de saisie car on ne regarde plus du tout le 
+clavier et on peut enfin se concentrer sur ce que l’on écrie à l’écran.</p>
+<p>Bonne journée.</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-613614" class="comment even thread-even depth-1">
+				<article id="div-comment-613614" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														pirlet						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2016-07-21T19:40:49+02:00">21 juillet 2016</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Erreur de présentation…<br>
+•ALT+167 : º (le symbole des degrés)<br>
+•ALT+167 : ¿ (un point d’interrogation inversé)<br>
+2x ALT+167 pour 2 choses différentes</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-647279" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-647279" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														azertyuiop						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-02-02T11:50:37+01:00">2 février 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Merci!!!!!!!!!!!!!!!!!! C’est super gentil de votre par d’avoir penser à nous!<br>
+En faite, je chercher comment faire des flèches, pour mon dossier de stage (3ème) et j’ai vu ce site.<br>
+SAGOL KARDESIM!</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-650797" class="comment even thread-even depth-1">
+				<article id="div-comment-650797" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														azertyup						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-03-03T21:00:54+01:00">3 mars 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>MERCIIIIIIIII! ♥</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-650887" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-650887" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Isaya M'lela Pombo						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-03-04T14:43:35+01:00">4 mars 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>c’est très formidable.</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-654324" class="comment even thread-even depth-1">
+				<article id="div-comment-654324" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														sissi						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-03-25T20:09:42+01:00">25 mars 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonsoir,<br>
+C’est super<br>
+Merci<br>
+une question ?<br>
+comment écrire premier en abrégé ???? 🙂</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-681306" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-681306" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														yolton						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-09-17T17:30:14+02:00">17 septembre 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour à tous !</p>
+<p>Avez-vous une combinaison pour le o majuscule avec un accent circonflexe (ô) ?<br>
+Je n’en ai pas trouvé dans la liste des symboles ni sur internet !</p>
+<p>Merci pour cet article</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-688152" class="comment even thread-even depth-1">
+				<article id="div-comment-688152" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Zaza						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2017-12-20T09:29:07+01:00">20 décembre 2017</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,</p>
+<p>Juste une erreur de Frappe dans les raccourcis proposés, </p>
+<p>le ¿ , c’est ALT+168 et non ALT+167… Sinon, c’est juste super pratique.</p>
+<p>Merci</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-718830" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-718830" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														NANA47						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2018-10-24T15:10:40+02:00">24 octobre 2018</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour<br>
+je cherche le raccourci pour faire le trait _ situé sous le 8 sans 
+passer de la touche majuscule et minuscule à chaque fois ? comment faire
+ ? merci</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-726006" class="comment even thread-even depth-1">
+				<article id="div-comment-726006" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Matvei						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2018-12-21T11:35:10+01:00">21 décembre 2018</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>ALT+759 a fait ≈</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-726011" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-726011" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Matvei						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2018-12-21T11:38:41+01:00">21 décembre 2018</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>ALT+486 ça fait µ,   ALT+412 ça fait £, ALT+236 ça fait ∞</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-733196" class="comment even thread-even depth-1">
+				<article id="div-comment-733196" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														vanessa						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2019-01-23T12:29:54+01:00">23 janvier 2019</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjourm<br>
+je cherche le raccourci clavier du schwa<br>
+merci</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-738965" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-738965" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														chantal						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2019-03-20T09:18:26+01:00">20 mars 2019</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Il me semble que, sauf erreur, il manque le symbole ALT+0183 pour le point de l’écriture inclusive (infirmier·ère)</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-740738" class="comment even thread-even depth-1">
+				<article id="div-comment-740738" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														HERVIEU						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2019-04-02T17:58:28+02:00">2 avril 2019</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>À savoir que le caractère spécial doit faire partie de votre 
+“police” de caractère, dessinée par un spécialiste de la lettre (dont je
+ faisais partie). Une police complète comporte plus de 250 signes 
+(lettres, chiffres, caractères spéciaux…) et ceci dans une seul variété.
+ Les romains, italiques, les gras, les éclairées, etc. sont tous 
+dessinés séparément. La pratique du “bold”, “ital”… que l’on trouve dans
+ certains logiciels est une déformation informatique. Il est donc 
+préférable d’utiliser une police avec toutes ses variantes.<br>
+Ne pas oublier d’éviter de copier les médias incurables dans l’ignorance des abréviations.<br>
+1er, 1re, 2e, 15e, etc. avec un “s” au pluriels &gt; les 23es 
+rencontres. Toutes les abréviations de la langue sont au début de tout 
+bon dictionnaire, à “abréviations”…<br>
+Jean-Marie</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-753759" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-753759" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Jean-Baptiste						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2019-08-16T16:22:17+02:00">16 août 2019</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Pas la peine de se prendre la tête …..<br>
+Vous faites 	toutes les combinaisons depuis Alt 039 jusqu’à Alt 9999 vous découvrirez tout !<br>
+Les combinaisons avant Alt 039 ne sont pas attribuées, et après Alt 9999 ce sont des doublons .</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-759249" class="comment even thread-even depth-1">
+				<article id="div-comment-759249" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Véonique						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2019-10-22T12:17:31+02:00">22 octobre 2019</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,<br>
+J’ai besoin de la flèche pointée vers le haut. J’ai lu ça et là qu’il 
+fallait utiliser alt + 24. Le clavier de mon pc n’a pas de clavier 
+numérique distinct. Il faut donc que je passe en mode majuscule pour 
+utiliser les chiffres. Mon soucis : Alt….j’arrive a l’utiliser mais le 
+24 je n’y arrive pas. J’ai besoin de votre aide. Merci à vous</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-775564" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-775564" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Fyrirliði Þunglyndi						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-03-25T18:22:55+01:00">25 mars 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Hellooooooooo !<br>
+J’avais une petite question… quelqu’un saurait me dire le raccourci pour
+ faire la lettre ed (islandais/vieux norrois, Þ) et le thorn (tjrs 
+islandais et vieux norrois, ð).</p>
+<p>Merci d’avance,<br>
+Fyrirliði Þunglyndi</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-775654" class="comment even thread-even depth-1">
+				<article id="div-comment-775654" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Anaëlle						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-03-26T16:23:47+01:00">26 mars 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour, vous présentez des raccourcis pour le petit et le 
+grand e dans l’o (œ et Œ). Mais comment obtient-on un grand O et un 
+petit e collés (pour le mot Oeuvre en début de phrase, par exemple)?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-802239" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-802239" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Achille Vicaire						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-11-17T21:08:42+01:00">17 novembre 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>comment on fait sans pavé numérique ?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-802338" class="comment even thread-even depth-1">
+				<article id="div-comment-802338" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Hirondelle						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-11-18T18:38:52+01:00">18 novembre 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>moi j’utilise le<br>
+alt + 092 (clavier numérique) : \<br>
+alt + 035 (clavier numérique) : #</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-802473" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-802473" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Rémi MP						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-11-19T18:21:59+01:00">19 novembre 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Merci!☻ ☻ ☻</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-803784" class="comment even thread-even depth-1">
+				<article id="div-comment-803784" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														michèle						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2020-11-30T10:45:43+01:00">30 novembre 2020</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>BONJOUR,<br>
+MERCI pour toutes ces supers infos raccourcis clavier . Super utile et 
+époustouflée de voir toutes les possibilités à notre disposition<br>
+bonne journée</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-818382" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-818382" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Marie-Chantal						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2021-02-14T21:48:32+01:00">14 février 2021</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>ET LE HONGROIS ?</p>
+<p>Ce n’est pas faute d’avoir cherché, mais je n’ai trouvé nulle part 
+sur Internet comment saisir avec le pavé numérique le &nbsp;» ű &nbsp;» 
+minuscule et le &nbsp;» Ű &nbsp;» majuscule du hongrois ?<br>
+(on parle ici ou là de codage informatique «&nbsp;unicode&nbsp;» mais je n’y comprends rien !).<br>
+Merci à qui aura la solution !</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-819864" class="comment even thread-even depth-1">
+				<article id="div-comment-819864" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														helo						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2021-02-24T18:08:14+01:00">24 février 2021</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄Ç‼¶je vais tt app par ♥ merci bcp</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-827120" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-827120" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Charles (Jean-Pierre) Dechesne						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2021-04-22T11:24:35+02:00">22 avril 2021</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Pour répondre à certaines questions, il suffit de choisir dans 
+Word le dictionnaire «&nbsp;français&nbsp;» (dans onglet 
+«&nbsp;contrôle&nbsp;»). Les chevrons « » viennent tout seul. Idem : en 
+tapant 1er  le «&nbsp;er&nbsp;» sera en superscript, comme 2e, 3e etc. 
+Mais il faut aussi configurer le «&nbsp;Word&nbsp;».</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-844975" class="comment even thread-even depth-1">
+				<article id="div-comment-844975" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														faniry						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2021-07-27T11:36:12+02:00">27 juillet 2021</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>bonjour, je n’arrive pas à exécuter la flèche vers le gauche {ALT+27} qu’est ce que j’ignore, quelque part?</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-856933" class="comment odd alt thread-odd thread-alt depth-1">
+				<article id="div-comment-856933" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Frank						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2021-09-26T16:13:51+02:00">26 septembre 2021</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Bonjour,<br>
+comment je peux faire «&nbsp;C entouré&nbsp;» sur un clavier ASDFGH?<br>
+ Frank</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+			<li id="comment-888468" class="comment even thread-even depth-1">
+				<article id="div-comment-888468" class="comment-body">
+
+					<footer class="comment-meta">
+						<div class="comment-author">
+														Marquerino						</div>
+						<div class="comment-metadata"><span class="color-b">•</span>
+							<time datetime="2022-02-14T09:20:55+01:00">14 février 2022</time>
+													</div><!-- .comment-metadata -->
+
+											</footer><!-- .comment-meta -->
+
+					<div class="comment-content">
+						<p>Merci à vous,ça m’est utile</p>
+					</div><!-- .comment-content -->
+
+									</article><!-- .comment-body -->
+			</li><!-- #comment-## -->
+					</ul><!-- .comment-list -->
+				</div>
+
+				
+				<div id="respond" class="comment-respond boxed-s col-lg-5">
+		<div class="comment-reply-title h3bis">Ajouter un commentaire</div><form action="https://www.blogdumoderateur.com/wp-comments-post.php" method="post" id="commentform" class="comment-form form"><div class="row"><p class="comment-notes col-12"><span id="email-notes">Votre adresse email ne sera pas publiée.</span></p><div class="comment-form-comment col-12"><textarea id="comment" name="comment" placeholder=" " cols="30" rows="3" maxlength="65525" required="required"></textarea> <label for="comment">Commentaire *</label></div><div class="comment-form-author col-xl-6"><input id="author" name="author" type="text" placeholder=" " size="30" maxlength="245" required="required"> <label for="author">Nom <span class="required">*</span></label></div>
+<div class="comment-form-email col-xl-6"><input id="email" name="email" type="email" placeholder=" " size="30" maxlength="100" aria-describedby="email-notes" required="required"> <label for="email">Email <span class="required">*</span></label></div>
+<div class="form-submit"><button name="submit" type="submit" id="submit" class="btn-ns">Laisser un commentaire</button> <input type="hidden" name="comment_post_ID" value="17798" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="71bb33d472"></p></div><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1646257148558"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+		</div><!-- .comments-area -->
+
+	</div><!-- .row -->
+</div><!-- .comments-section .container -->
+			</div><!-- .col-12 -->
+
+		</div><!-- .row -->
+	</div><!-- .container-fluid -->
+</div>
+
+<section class="tools-container my-4">
+
+	<div class="container">
+
+		<div class="title h2 pb-3">
+			Les meilleurs outils pour les professionnels du web		</div>
+
+		<div class="items-list row">
+
+							<div class="col-md-4 item">
+
+					<div data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/baylbssvpr-qbpf/?hgz_fbhepr=oybtqhzbqrengrhe&amp;hgz_zrqvhz=fvgrjro&amp;hgz_pnzcnvta=enppbhepvf-pynivre-nyg-pnenpgrer-fcrpvny&amp;hgz_pbagrag=rapneg&amp;hgz_grez=Q%P3%N9pbhieve+BAYLBSSVPR+Qbpf" data-title="ONLYOFFICE Docs" class="e-link boxed-s nostyle anim h-border" tabindex="0">
+
+						<div class="entry-meta p-3_2">
+
+							
+							<div class="info d-flex">
+								<div class="logo picture">
+									<img src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/logo-onlyoffice-57x57.png" alt="Logo ONLYOFFICE Docs" data-lazy-src="https://f.hellowork.com/bdmtools/2021/06/logo-onlyoffice-57x57.png" data-ll-status="loaded" class="entered lazyloaded" width="57" height="57"><noscript><img src="https://f.hellowork.com/bdmtools/2021/06/logo-onlyoffice-57x57.png" width="57" height="57" alt="Logo ONLYOFFICE Docs"></noscript>
+								</div>
+								<div class="name">
+									<h3 class="h3bis mb-2">ONLYOFFICE Docs</h3>
+																			<div class="price t-def">Freemium</div>
+																	</div>
+							</div>
+
+							<div class="presentation t-size-def t-def mt-3_2 is-cta">
+								Une suite bureautique conçue pour favoriser la collaboration							</div>
+
+							
+															<div class="cta">
+																			<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/erqverpgvba/?gbby_vq=9333&amp;bevtvar=QVERPG_OQZ" data-title="Aller sur le site" class="btn outline e-link" tabindex="0">Découvrir ONLYOFFICE Docs</span>
+																	</div>
+							
+						</div>
+
+					</div>
+
+				</div><!-- .col -->
+							<div class="col-md-4 item">
+
+					<div data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/fjvff-genafsre/?hgz_fbhepr=oybtqhzbqrengrhe&amp;hgz_zrqvhz=fvgrjro&amp;hgz_pnzcnvta=enppbhepvf-pynivre-nyg-pnenpgrer-fcrpvny&amp;hgz_pbagrag=rapneg&amp;hgz_grez=Q%P3%N9pbhieve+Fjvff+Genafsre" data-title="Swiss Transfer" class="e-link boxed-s nostyle anim h-border" tabindex="0">
+
+						<div class="entry-meta p-3_2">
+
+							
+							<div class="info d-flex">
+								<div class="logo picture">
+									<img src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/swiss-transfer-logo-1-57x57.png" alt="Logo Swiss Transfer" data-lazy-src="https://f.hellowork.com/bdmtools/2020/03/swiss-transfer-logo-1-57x57.png" data-ll-status="loaded" class="entered lazyloaded" width="57" height="57"><noscript><img src="https://f.hellowork.com/bdmtools/2020/03/swiss-transfer-logo-1-57x57.png" width="57" height="57" alt="Logo Swiss Transfer"></noscript>
+								</div>
+								<div class="name">
+									<h3 class="h3bis mb-2">Swiss Transfer</h3>
+																			<div class="price t-def">Gratuit</div>
+																	</div>
+							</div>
+
+							<div class="presentation t-size-def t-def mt-3_2 is-cta">
+								Un outil sécurisé pour transférer vos fichiers lourds							</div>
+
+							
+															<div class="cta">
+																			<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/erqverpgvba/?gbby_vq=1144&amp;bevtvar=QVERPG_OQZ" data-title="Aller sur le site" class="btn outline e-link" tabindex="0">Découvrir Swiss Transfer</span>
+																	</div>
+							
+						</div>
+
+					</div>
+
+				</div><!-- .col -->
+							<div class="col-md-4 item">
+
+					<div data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/fnyrfsbepr/?hgz_fbhepr=oybtqhzbqrengrhe&amp;hgz_zrqvhz=fvgrjro&amp;hgz_pnzcnvta=enppbhepvf-pynivre-nyg-pnenpgrer-fcrpvny&amp;hgz_pbagrag=rapneg&amp;hgz_grez=Q%P3%N9pbhieve+Fnyrfsbepr" data-title="Salesforce" class="e-link boxed-s nostyle anim h-border" tabindex="0">
+
+						<div class="entry-meta p-3_2">
+
+							
+							<div class="info d-flex">
+								<div class="logo picture">
+									<img src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/salesforce-logo-57x57.jpg" alt="Logo Salesforce" data-lazy-src="https://f.hellowork.com/bdmtools/2020/08/salesforce-logo-57x57.jpg" data-ll-status="loaded" class="entered lazyloaded" width="57" height="57"><noscript><img src="https://f.hellowork.com/bdmtools/2020/08/salesforce-logo-57x57.jpg" width="57" height="57" alt="Logo Salesforce"></noscript>
+								</div>
+								<div class="name">
+									<h3 class="h3bis mb-2">Salesforce</h3>
+																			<div class="price t-def">Payant</div>
+																	</div>
+							</div>
+
+							<div class="presentation t-size-def t-def mt-3_2 is-cta">
+								Un CRM de référence pour gérer la relation client							</div>
+
+							
+															<div class="cta">
+																			<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/gbbyf/erqverpgvba/?gbby_vq=1845&amp;bevtvar=QVERPG_OQZ" data-title="Aller sur le site" class="btn outline e-link" tabindex="0">Découvrir Salesforce</span>
+																	</div>
+							
+						</div>
+
+					</div>
+
+				</div><!-- .col -->
+			
+		</div><!-- .row -->
+
+	</div><!-- .container -->
+
+</section>
+<div class="after-post-nl"><div class="container">
+<section class="newsletter-container bg-green bg-bottom-center boxed">
+	<div class="container-fluid x-padding">
+		<div class="row">
+
+			<div class="col-12">
+				<div class="nl-title pb-3">
+					<h2>Recevez par email toute l’actualité du digital</h2>
+				</div>
+			</div><!-- .col -->
+
+			<div class="col-md-6">
+				<div class="nl-form">
+					
+	<form action="/wp-admin/admin-ajax.php" method="post" class="form_newsletter form-valid" data-param="article">
+		<div class="d-flex mb-3">
+			<input type="hidden" name="action" value="subscribe_optin">
+			<input type="hidden" name="referal" value="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/">
+			<input type="text" id="email-article" name="email" placeholder="Votre email" data-default="Votre email" class="email  ">
+			<label for="email-article" class="screen-reader-text">Votre email</label>
+							<button type="submit" class="submit button-valid bg-blue px-4 px-xl-5" aria-label="Envoyer">
+					<span class="submit-valid">S'inscrire</span>
+					<span class="loading-valid"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#rotation"></use></svg></span>
+					<span class="check-unvalid"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#reload-news"></use></svg> Réessayez</span>
+				</button>
+					</div>
+		<fieldset>
+			<input type="radio" name="frequence" id="quotidienne-article" value="quotidienne" class="css-checkbox" checked="checked">
+			<label for="quotidienne-article" class="css-radio">Chaque matin</label>
+			<input type="radio" name="frequence" id="hebdomadaire-article" value="hebdomadaire" class="css-checkbox">
+			<label for="hebdomadaire-article" class="css-radio">Chaque vendredi</label>
+		</fieldset>
+				<div class="notice-newsletter notice-newsletter-article"></div>
+		<p class="cgu_newsletter t-size-xs">En cliquant sur "S'inscrire", vous acceptez les <span data-href="/pth/" class="e-link" tabindex="0">CGU</span> ainsi que notre <span data-href="/cbyvgvdhr-qr-pbasvqragvnyvgr/" class="e-link" tabindex="0">politique de confidentialité</span> décrivant la finalité des traitements de vos données personnelles.</p>
+	</form>
+
+					</div>
+
+			</div><!-- .col -->
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+</section><!-- .newsletter-container -->
+</div></div><div class="fe-blocs container pt-md-5 pt-4_2 pb-md-4 pb-0">
+	<div class="row">
+
+		<div class="col-md-6">
+			<div class="card-formation boxed-s anim h-border">
+
+				<a href="https://www.maformation.fr/formations/domaine_bureautique.html?utm_source=blogdumoderateur&amp;utm_medium=siteweb&amp;utm_campaign=raccourcis-clavier-alt-caractere-special&amp;utm_content=footer_article&amp;utm_term=Voir+les+formations" target="_blank" rel="noopener" data-url="https://www.maformation.fr/formations/domaine_bureautique.html" data-event="Footer article" class="nostyle entry-meta d-flex p-3_2">
+					
+					<div class="icon-formation picture"></div>
+
+					<div class="entry-content">
+						<div class="cta-text pb-2">
+							Voir les formations						</div>
+						<div class="title h3bis">
+							Trouvez une formation Bureautique						</div>
+					</div>
+
+				</a>
+
+			</div>
+		</div>
+
+				<div class="col-md-6">
+			<div class="card-emploi boxed-s anim h-border">
+
+				<a href="https://www.regionsjob.com/emploi/recherche?utm_source=blogdumoderateur&amp;utm_medium=siteweb&amp;utm_campaign=raccourcis-clavier-alt-caractere-special&amp;utm_content=footer_article&amp;utm_term=Voir+les+offres+d%E2%80%99emploi" target="_blank" rel="noopener" data-url="https://www.regionsjob.com/emploi/recherche" data-event="Footer article" class="nostyle entry-meta d-flex p-3_2">
+					
+					<div class="icon-emploi picture"></div>
+
+					<div class="entry-content">
+						<div class="cta-text pb-2">
+							Voir les offres d’emploi						</div>
+						<div class="title h3bis">
+							Trouvez un emploi dans le digital						</div>
+					</div>
+
+				</a>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="breadcrumb-section pt-4">
+	<div class="shadow-top">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12">
+
+					
+						
+													<a href="https://www.blogdumoderateur.com/" class="t-def">Accueil</a>
+						
+					
+													<span> / </span>
+						
+													<a href="https://www.blogdumoderateur.com/articles/" class="t-def">Articles</a>
+						
+					
+													<span> / </span>
+						
+													<a href="https://www.blogdumoderateur.com/web/" class="t-def">Web</a>
+						
+					
+													<span> / </span>
+						
+													70 raccourcis clavier ALT pour insérer un caractère spécial						
+					
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div>
+</div><!-- .breadcrumb -->
+<section class="related-posts bg-blue py-4_2 pt-md-5">
+	<div class="container-fluid x-padding">
+		<div class="row">
+
+			<div class="col-12 related-title pb-3">
+				<h2 class="color-w">Sur le même thème</h2>
+			</div>
+
+			<div class="col-12">
+				<div class="row related-list">
+
+					
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/google-facilite-integration-donnees-google-forms-sur-docs-slides/" aria-label="Google facilite l’intégration des données Google Forms sur Docs et Slides : ce qui change" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-97917" class="post-97917 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique tag-google tag-productivite">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Google				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">Google facilite l’intégration des données Google Forms sur Docs et Slides : ce qui change</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-97917 -->
+
+	</a>
+
+</div>
+
+
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/google-lance-workspace-gratuit/" aria-label="Google lance une version gratuite de Workspace" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-95560" class="post-95560 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique tag-google">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Google				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">Google lance une version gratuite de Workspace</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-95560 -->
+
+	</a>
+
+</div>
+
+
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/calendrier-2022/" aria-label="Calendrier 2022 à imprimer : jours fériés, vacances, numéros de semaine…" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-88763" class="post-88763 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Bureautique				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">Calendrier 2022 à imprimer : jours fériés, vacances, numéros de semaine…</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-88763 -->
+
+	</a>
+
+</div>
+
+
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/calendrier-scolaire-2021-2022/" aria-label="Calendrier scolaire 2021-2022 avec les dates des vacances scolaires des zones A, B et C" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-73421" class="post-73421 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Bureautique				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">Calendrier scolaire 2021-2022 avec les dates des vacances scolaires des zones A, B et C</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-73421 -->
+
+	</a>
+
+</div>
+
+
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/calendrier-2022/" aria-label="Calendrier 2022 à imprimer : jours fériés, vacances, numéros de semaine…" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-88763" class="post-88763 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Bureautique				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">Calendrier 2022 à imprimer : jours fériés, vacances, numéros de semaine…</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-88763 -->
+
+	</a>
+
+</div>
+
+
+<div class="item col-md-6 col-xl-4 pb-md-4_2 ">
+
+	<a href="https://www.blogdumoderateur.com/raccourcis-clavier-windows/" aria-label="42 raccourcis clavier Windows indispensables" class="content-related color-w nostyle boxed bg-blue-med h-border-w">
+
+		<article id="post-18579" class="post-18579 post type-post status-publish format-standard has-post-thumbnail category-web tag-bureautique tag-microsoft">
+
+			<div class="entry-meta p-3_2">
+
+				<div class="favtag mb-3">
+					Bureautique				</div>
+
+				<header>
+					<h3 class="entry-title h3bis color-w">42 raccourcis clavier Windows indispensables</h3>				</header><!-- .entry-header -->
+
+			</div>
+
+		</article><!-- #post-18579 -->
+
+	</a>
+
+</div>
+
+
+				</div>
+
+			</div>
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+</section><!-- .related-posts -->
+
+			</div><!-- .content -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	
+	
+<div class="popular-section border-top-grey py-md-5 py-4_2">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12">
+
+				<h3>Thèmes populaires</h3>
+
+									<a href="https://www.blogdumoderateur.com/dossier/google/" class="badge">Google</a>
+									<a href="https://www.blogdumoderateur.com/dossier/strategie-digitale/" class="badge">Stratégie digitale</a>
+									<a href="https://www.blogdumoderateur.com/dossier/facebook/" class="badge">Facebook</a>
+									<a href="https://www.blogdumoderateur.com/dossier/donnees-personnelles/" class="badge">Données personnelles</a>
+									<a href="https://www.blogdumoderateur.com/dossier/instagram/" class="badge">Instagram</a>
+									<a href="https://www.blogdumoderateur.com/dossier/e-commerce/" class="badge">E-commerce</a>
+				
+			</div>
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+</div><!-- .breadcrumb -->
+
+	
+<footer id="colophon" class="site-footer border-top-grey">
+
+	<div class="container pt-md-6 pt-5 pb-md-5 pb-0">
+		<div class="row">
+			<div class="col-xl-6 footer-left-col mb-4_2 mb-md-5 mb-xl-0">
+				<nav id="footer-navigation" class="secondary-navigation">
+					<div class="title h3">À propos</div>
+					<div class="menu-menu-footer-v6-container"><ul id="footer-menu" class="ls-none text"><li id="menu-item-94007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94007"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/n-cebcbf/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Qui sommes-nous ?</span></li>
+<li id="menu-item-94012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94012"><span class="e-link" tabindex="0" data-href="/ntraqn/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Agenda</span></li>
+<li id="menu-item-94009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94009"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/pbagnpg/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Nous contacter</span></li>
+<li id="menu-item-94971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94971"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/yvfgr-qrf-qbffvref/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Liste des dossiers</span></li>
+<li id="menu-item-94010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94010"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/zragvbaf-yrtnyrf/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Mentions légales</span></li>
+<li id="menu-item-94008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94008"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/pth/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>CGU</span></li>
+<li id="menu-item-94011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94011"><span class="e-link" tabindex="0" data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/cbyvgvdhr-qr-pbasvqragvnyvgr/"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Confidentialité</span></li>
+<li><a href="#" data-hw-cc-btn-toggle-modal="" data-vars-event-url="#" style="display: block;"><svg class="ico arrow-g"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#arrow-r"></use></svg>Gérer mes cookies</a></li></ul></div>				</nav><!-- #site-navigation -->
+				
+				<ul class="footer-social ls-inline d-flex pt-3"><li><span data-href="uggcf://jjj.snprobbx.pbz/oybtqhzbqrengrhe" class="e-link social-facebook btn" title="Facebook" tabindex="0"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#facebook"></use></svg></span></li><li><span data-href="uggcf://gjvggre.pbz/oybtzbqrengrhe" class="e-link social-twitter btn" title="Twitter" tabindex="0"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#twitter"></use></svg></span></li><li><span data-href="uggcf://jjj.yvaxrqva.pbz/pbzcnal/uryybjbexpbz/" class="e-link social-linkedin btn" title="Linkedin" tabindex="0"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#linkedin"></use></svg></span></li><li><span data-href="/srrq/" class="e-link social-rss btn" title="Flux RSS" tabindex="0"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#rss"></use></svg></span></li></ul>
+			</div>
+			<div class="col-xl-6 footer-right-col">
+
+									<div class="landing-cta">
+						<div class="title h3 pb-3">Devenez partenaire du BDM, le média des professionnels du digital</div>
+						<div class="des pb-4">Nous travaillons avec les éditeurs de logiciels, les recruteurs et les écoles du digital. Vous souhaitez qu’on parle de vous ?</div>
+						<span data-href="uggcf://jjj.oybtqhzbqrengrhe.pbz/freivpr/qrirave-cnegranver/" class="e-link cta btn " tabindex="0">	<span>Découvrir nos solutions</span></span>					</div>
+				
+				
+			</div>
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+</footer><!-- #colophon -->
+
+	
+<section class="newsletter-container bg-green bg-bottom-center">
+	<div class="container-fluid x-padding">
+		<div class="row">
+
+			<div class="col-12">
+				<div class="nl-title pb-3">
+					<h2>Recevez par email toute l’actualité du digital</h2>
+				</div>
+			</div><!-- .col -->
+
+			<div class="col-md-6">
+				<div class="nl-form">
+					
+	<form action="/wp-admin/admin-ajax.php" method="post" class="form_newsletter form-valid" data-param="footer">
+		<div class="d-flex mb-3">
+			<input type="hidden" name="action" value="subscribe_optin">
+			<input type="hidden" name="referal" value="https://www.blogdumoderateur.com/raccourcis-clavier-alt-caractere-special/">
+			<input type="text" id="email-footer" name="email" placeholder="Votre email" data-default="Votre email" class="email  ">
+			<label for="email-footer" class="screen-reader-text">Votre email</label>
+							<button type="submit" class="submit button-valid bg-blue px-4 px-xl-5" aria-label="Envoyer">
+					<span class="submit-valid">S'inscrire</span>
+					<span class="loading-valid"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#rotation"></use></svg></span>
+					<span class="check-unvalid"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#reload-news"></use></svg> Réessayez</span>
+				</button>
+					</div>
+		<fieldset>
+			<input type="radio" name="frequence" id="quotidienne-footer" value="quotidienne" class="css-checkbox" checked="checked">
+			<label for="quotidienne-footer" class="css-radio">Chaque matin</label>
+			<input type="radio" name="frequence" id="hebdomadaire-footer" value="hebdomadaire" class="css-checkbox">
+			<label for="hebdomadaire-footer" class="css-radio">Chaque vendredi</label>
+		</fieldset>
+				<div class="notice-newsletter notice-newsletter-footer"></div>
+		<p class="cgu_newsletter t-size-xs">En cliquant sur "S'inscrire", vous acceptez les <span data-href="/pth/" class="e-link" tabindex="0">CGU</span> ainsi que notre <span data-href="/cbyvgvdhr-qr-pbasvqragvnyvgr/" class="e-link" tabindex="0">politique de confidentialité</span> décrivant la finalité des traitements de vos données personnelles.</p>
+	</form>
+
+					</div>
+
+			</div><!-- .col -->
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+</section><!-- .newsletter-container -->
+
+	
+		<div class="footer-links container footer-hw t-legend">
+			BDM est fièrement propulsé par HelloWork :
+<a href="https://www.regionsjob.com/" target="_blank" rel="noopener">Emploi</a>,
+<a href="https://www.cadreo.com/" target="_blank" rel="noopener">Emploi Cadre</a>,
+<a href="https://www.maformation.fr/" target="_blank" rel="noopener">Formation</a>		</div><!-- .container -->
+
+	
+</div><!-- #page -->
+
+		<div id="social-modal" class="modal" style="display: none;">
+			<div class="modal-container">
+				<div class="title h3bis p-3_2">
+					<span>Partager l'article</span>
+					<a href="#" title="Fermer" class="close"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#close"></use></svg></a>
+				</div>
+				<div class="content trck-social p-3_2">
+					<ul class="ls-inline">
+						<li>
+							<a href="#" class="tw-link btn" rel="nofollow" aria-label="Partager sur Twitter"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#twitter"></use></svg></a>
+						</li>
+						<li>
+							<a href="#" class="ld-link btn" rel="nofollow" aria-label="Partager sur Linkedin"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#linkedin"></use></svg></a>
+						</li>
+							<li><a href="#" class="fb-link btn" rel="nofollow" aria-label="Partager sur Facebook"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#facebook"></use></svg></a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#" class="messenger-link btn" rel="nofollow" target="_blank" aria-label="Partager avec Messenger"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#messenger"></use></svg></a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#" class="whatsapp-link btn" rel="nofollow" target="_blank" aria-label="Partager sur WhatsApp"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#whatsapp"></use></svg></a>
+						</li>
+						<li>
+							<a href="#" class="flipboard-link btn" rel="nofollow" aria-label="Partager sur Flipboard"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#flipboard"></use></svg></a>
+						</li>
+						<li>
+							<a href="#" class="pt-link btn" target="_blank" rel="nofollow" aria-label="Partager sur Pinterest"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#pinterest"></use></svg></a>
+						</li>
+						<li>
+							<a href="#" class="reddit-link btn" target="_blank" rel="nofollow" aria-label="Partager sur Reddit"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#reddit"></use></svg></a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#" class="sms-link btn" rel="nofollow" aria-label="Partager par SMS"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#sms"></use></svg></a>
+						</li>
+						<li>
+							<a href="#" class="mail-link btn" rel="nofollow" aria-label="Partager par email"><svg class="ico"><use xlink:href="https://www.blogdumoderateur.com/wp-content/themes/blogdumoderateur/img/svg/_sprite.svg#mail"></use></svg></a>
+						</li>
+					</ul>
+					<div class="cc-link-wrapper d-flex">
+						<input type="text" name="cc-link" class="setgrise focus grise" disabled="disabled">
+						<button class="submit cc-link button-valid bg-blue px-4" rel="nofollow" aria-label="Copier l'URL">Copier</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/jquery.js" id="hw_lgtbx_fancyb-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/hw-lightbox.js" id="hw_lgtbx_script-js" defer="defer"></script>
+<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/regenerator-runtime.js" id="regenerator-runtime-js" defer="defer"></script>
+<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/wp-polyfill.js" id="wp-polyfill-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"https:\/\/www.blogdumoderateur.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+</script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/index.js" id="contact-form-7-js" defer="defer"></script>
+<script src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/js.js" id="hw_mlp-cookies-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/landing.js" id="hw_mlp-scripts-js" defer="defer"></script>
+<script id="hw_sv_js-js-extra">
+var SponsoredVars = {"route":"\/wp-json\/sponsored\/v1\/views","nonce":"ea67a6eb0e"};
+</script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/hw-sv-scripts.js" id="hw_sv_js-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/navigation.js" id="bdm-navigation-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/skip-link-focus-fix.js" id="bdm-skip-link-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/gnikcart.js" id="bdm-gnikcart-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/common.js" id="bdm-scripts-js" defer="defer"></script>
+<script id="bdm-share-js-extra">
+var ajaxurl = ["https:\/\/www.blogdumoderateur.com\/wp-admin\/admin-ajax.php"];
+</script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/share.js" id="bdm-share-js" defer="defer"></script>
+<script data-minify="1" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/post.js" id="bdm-post-js" defer="defer"></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="70%20raccourcis%20clavier%20ALT%20pour%20ins%C3%A9rer%20un%20caract%C3%A8re%20sp%C3%A9cial_files/lazyload.js"></script>
+
+
+<script type="text/javascript" id="">function getCookie(a){a+="\x3d";var c=decodeURIComponent(document.cookie);c=c.split(";");for(var d=0;d<c.length;d++){for(var b=c[d];" "==b.charAt(0);)b=b.substring(1);if(0==b.indexOf(a))return b.substring(a.length,b.length)}return""}function isMarket(){var a=getCookie("hw-cc-gtm");if("undefined"===typeof a||""===a)return!1;a=JSON.parse(a);return"boolean"===typeof a.marketing&&!0===a.marketing}
+function isAnno(){var a=getCookie("hw-cc-gtm");if("undefined"===typeof a||""===a)return!0;a=JSON.parse(a);return"boolean"!==typeof a.statistics||!0!==a.statistics}window.dataLayer.push({event:"CookieRGPDLoad",marketing:""+isMarket(),anonyme:""+isAnno(),basic:"true"});</script><div><div class="hw-cc-main"><div class="hw-cc-notice-box "><div class="hw-cc-notice-box__wrapper"><div class="hw-cc-notice-box__inner"><div class="hw-cc-notice-box__body"><div class="hw-cc-notice-content"><p class="hw-cc-notice-content__intro">BDM utilise des cookies pour réaliser des mesures d'audience.</p><div class="hw-cc-notice-content__desc"><p>En cliquant sur le bouton Accepter, vous acceptez nos <button data-btn="terms-of-service" class="btn-as-link">CGU</button> et notre <button data-btn="privacy-policy" class="btn-as-link">politique de confidentialité</button>.</p>
+<p>Vous pouvez <button data-btn="customize-cookies" class="btn-as-link">personnaliser vos choix</button> et changer d’avis en cliquant sur "Gérer mes cookies" dans notre politique de confidentialité.</p></div></div></div><div class="hw-cc-notice-box__actions"><div class="hw-cc-notice-box__actions-btns hw-cc-notice-box__actions-btns--flex-wrap-xs"><button id="hw-cc-notice-deny-btn" class="hw-cc-btn hw-cc-btn--primary" style="min-width: 115px;"><span>Tout refuser</span></button><button id="hw-cc-notice-accept-btn" class="hw-cc-btn hw-cc-btn--primary" style=""><span>Tout accepter</span></button></div></div></div></div></div><div class="hw-cc-modal"><div class="hw-cc-modal__wrapper "><div class="hw-cc-modal__dialog "><div class="hw-cc-modal__content"><div class="hw-cc-modal__header"><div class="hw-cc-modal__header-title">Personnaliser mes choix</div><div><button title="Fermer" class="hw-cc-btn-close"></button></div></div><div class="hw-cc-modal__body"><div class="hw-cc-consent-modal-content"><div class="hw-cc-conf-intro">L’utilisation des données est décrite dans notre <button data-btn="privacy-policy" class="btn-as-link">politique de confidentialité</button> des données personnelles.</div><div class="hw-cc-opt-in-box hw-cc-opt-in-box--disabled"><div class="hw-cc-opt-in-box__wrapper-input"><input id="base" type="checkbox" disabled="disabled" checked="checked"></div><div class="hw-cc-opt-in-box__wrapper-content"><label for="base"><div class="hw-cc-opt-in-box__label">Cookies de fonctionnement</div><div class="hw-cc-opt-in-box__description">Les
+ cookies de fonctionnement contribuent à rendre un site Web utilisable 
+en activant des fonctions de base comme la navigation de page et l’accès
+ aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner 
+correctement sans ces cookies.</div></label><button class="btn-as-link">En savoir plus</button></div></div><div class="hw-cc-opt-in-box "><div class="hw-cc-opt-in-box__wrapper-input"><input id="statistics" type="checkbox"></div><div class="hw-cc-opt-in-box__wrapper-content"><label for="statistics"><div class="hw-cc-opt-in-box__label">Cookies statistiques</div><div class="hw-cc-opt-in-box__description">Les
+ cookies statistiques aident l’ensemble des sites du groupe HelloWork à 
+comprendre comment les visiteurs interagissent avec les sites Web afin 
+de pouvoir en améliorer la performance.</div></label><button class="btn-as-link">En savoir plus</button></div></div><div class="hw-cc-opt-in-box "><div class="hw-cc-opt-in-box__wrapper-input"><input id="marketing" type="checkbox"></div><div class="hw-cc-opt-in-box__wrapper-content"><label for="marketing"><div class="hw-cc-opt-in-box__label">Cookies tiers de ciblage</div><div class="hw-cc-opt-in-box__description">En
+ acceptant le paramétrage de ces cookies, vous pourrez visualiser des 
+publicités pour des articles sur notre site ou des services de nos 
+partenaires.</div></label><button class="btn-as-link">En savoir plus</button></div></div><div>En cliquant sur le bouton [ Accepter ] vous acceptez les CGU et la politique de confidentialité BDM.</div><div class="hw-cc-btn-group"><button class="hw-cc-btn hw-cc-btn--default" style=""><span>Tout refuser</span></button><button id="hw-cc-consent-modal-accept-btn" class="hw-cc-btn hw-cc-btn--primary" style=""><span>Accepter</span></button></div></div></div></div></div></div></div></div></div></body></html>

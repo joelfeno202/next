@@ -1,0 +1,785 @@
+                       /*style pardefaut*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    scrollbar-color: rgb(71, 68, 68) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+   
+}
+input:focus{
+outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.contenu{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background-color:rgb(206, 202, 202);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 6fr  2fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "droit gauche gauche"
+    "footer footer footer footer"
+    ;
+  } 
+
+
+
+                       /*navigation*/
+.navv{
+    grid-area: nav;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:white;
+    box-shadow: 3px 10px 8px #888888;
+    border-bottom:1px solid black;
+    z-index: 10;
+   position: fixed;
+   top:5px;
+   width: 100%;
+   height: 50px;
+    
+}
+.logo{
+ 
+    display: flex;
+  
+ 
+}
+.lo{
+    background-color: aqua;
+    display: flex;
+  align-items: center;
+justify-content: space-around;
+}
+.logo img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;   
+    left: 10px;
+    top: 5px;
+  
+}
+
+.logo input#recherche{
+  
+    background: inherit;
+    border: none;
+   border-radius: 20px;
+    padding-left:15px ;
+    font-size: 11px;
+    color:black;
+    height: 30px;
+    background-color: rgb(133, 128, 128);
+    opacity:0.7;
+    width: 200px;
+  
+}
+.logo input#recherche:hover{
+    opacity: 1;
+}
+.logo button#rech{
+    height: 30px;
+    width: 50px;
+     opacity: 0.8;
+  
+   background: inherit;
+    font-size: 15px;
+   
+}
+
+.logo button#rech:hover{
+    opacity: 1;
+}
+
+
+.reseau{
+    position:absolute;
+  
+    justify-content: center;
+    align-items: center;
+    right:15px;
+    top:350px;
+    
+}
+.reseau ul{
+  
+    list-style-type: none;
+}
+.reseau a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    opacity:0.8;
+    justify-content: center;
+    align-items: center;
+}
+.reseau li{
+    width:40px;
+    background-color: rgb(133, 128, 128);
+    height:40px;
+    border-radius:100%;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+}
+.reseau li :hover{
+   opacity:1;
+   color:white;
+}
+
+.droit{
+    grid-area: droit;
+    display: flex;
+
+    justify-content:space-around;
+
+background-repeat: round;
+  height:100vh;
+overflow-y: scroll;
+margin-bottom: 0px;
+  
+}
+.droit h2{
+    font-family: cursive;
+    color: saddlebrown;
+    text-align: center;
+}
+.droit p{
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+    margin: 2px;
+}
+/*contacte*/
+.ligne{
+    padding-bottom: 5px;
+    border-bottom: 14px solid rgb(75, 78, 75);
+
+}
+.form1{
+    width: 100%;
+   
+
+    background-repeat:round;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(51, 51, 51) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+   font-size: 20px;
+   font-family: cursive;
+
+ 
+   
+}
+.form1 .gr{
+    font-size: 30px;
+}
+@keyframes anim{
+    0%{
+        transform: translatey(500px);
+    }
+    0%{
+        transform: translatey(-500px);
+    }
+}
+
+.form1 input{
+    border: none;
+    width: 350px;
+    padding-left: 8px;
+    font-size: 11px;
+    color: black;
+    background-color: inherit;
+}
+.form1 button{
+
+    background-color: rgba(51, 54, 51, 0.9);
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+   font-weight: bolder;
+   font-family: cursives;
+   opacity: 0.8;
+   width: 200px;
+   font-size: 20px;
+}
+.form1 button:hover{
+    opacity: 1;
+    color: white;
+}
+.centre{
+    text-align: center;
+}
+.form1 .com{
+    width: 96%;
+    border: 5px solid rgb(82, 85, 82);
+    padding: 10px;
+    background-color: inherit;
+}
+.gauche{
+    grid-area: gauche;
+    width: 100%;
+   
+  
+    background-repeat:round;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(51, 51, 51) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+   font-size: 20px;
+   font-family: cursive;
+ height: 100vh;
+}
+.gauche img{
+    height: 70%;
+  width: 100%;
+}
+.gauche H3{
+    text-align:center ;
+    font-size: 15px;
+    color: coral;
+    font-family:cursive;
+
+    padding: 10px;
+    font-weight: bolder;
+}
+.gauche p{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    padding: 12PX;
+}
+.gauche .actualite{
+border: 10px solid rgb(133, 128, 128);
+background-color: rgb(133, 128, 128);
+margin: 10px;
+height: 40%;
+
+
+
+}
+.gauche .nouveaute{
+    border: 10px solid rgb(133, 128, 128);
+background-color: rgb(133, 128, 128);
+margin: 10px;
+height: 40%;
+}
+.footer{
+    grid-area: footer;
+
+    padding: 10px;
+    align-items: center;
+    justify-content:space-around;
+}
+/*nav menu*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+   width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    
+    position: relative;
+}
+nav li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+   color: rgb(68, 63, 63);
+   text-decoration: none;
+   opacity: 0.5;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+}
+nav li a:hover{
+    opacity: 1;
+    border-bottom:2px solid rgba(202, 209, 202, 0.9);
+   
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul .sub{
+    
+  position: absolute;
+  display: none;
+
+}
+nav ul .sub li{
+    width: 250px;
+    background: rgba(172, 179, 172, 0.9);
+
+}
+.sub li a{
+
+    font-size: 12px;
+    color: whitesmoke;
+}
+nav ul .sub li ul.sub{
+     top: 0;
+     left:150px
+}
+.tsipika{
+    position: absolute;
+    top :13px;
+    right: 13px;
+    font-size: 20px;
+    color: rgb(29, 23, 24);
+    opacity: 0.7;
+}
+@media screen and (max-width: 700px ){
+    .contenu{
+        display: grid;
+        
+        grid-template-columns: 1fr ;
+        grid-template-rows: 0.4fr 0.1fr 6fr 2.5fr 2.5fr;
+        grid-template-areas: 
+        "nav"
+        "slogon"
+        "droit"
+        "gauche"
+        "footer"
+        ;
+      } 
+      .navv{
+         padding: 5px;
+        
+         height: auto;
+         align-items: center;
+         justify-content: center;
+         line-height: 0px;
+      }
+      .navv .menu{
+          display: none;
+      }
+      .navv .reseau{
+          display: none;
+      }
+      .navv .logo{
+        line-height: 1px;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          display: inline;
+          margin-top: 55px;
+         margin: auto;
+          position: static;
+          width: 100%;
+      }
+      .navv img{
+          position: static;
+          width: 40px;
+          height: 40px;
+          border: none;
+          margin: 0;
+      }
+      .logo input#recherche{
+          width: 150px;
+          text-align: center;
+          margin: 0;
+          height: 25px;
+      }
+      .lo{
+         justify-content: center;
+     
+      }
+      .logo button#rech{
+          width:25px;
+          height: 25px;
+          margin: 0;
+      }
+      .tsipika{
+          right: 20px;
+      }}
+/*dropdown*/
+    .login{
+      position: absolute;
+   
+      top: 34px;
+      right: 30px;
+     text-align: center;
+      display: none;
+      animation: anim 2s;
+      border-bottom-left-radius:15px ;
+      background-color: rgb(78, 82, 78);
+    
+    }
+    @keyframes anim{
+        0%{
+            transform: translateX(150px);
+        }
+        100%{
+            transform: translateX(-1px);
+        }
+    }
+  .login li{
+    
+    float: left;
+    width: 150px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     
+    
+    
+
+  }
+ #jo{
+     border-bottom: 1px solid green;
+ }
+  .login ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+ .login  a{
+    width: 100%;
+    height: 100%;
+    display: block;
+   color: whitesmoke;
+   text-decoration: none;
+   opacity: 0.5;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+ 
+     
+ }
+ .login  a:hover{
+    opacity: 1;
+    
+    color: rgb(41, 36, 36);
+ }
+
+ .tsipika:hover{
+     color: rgb(255, 255, 255);
+     opacity: 1;
+ }
+ .active{
+    opacity: 1;
+    background: rgba(175, 184, 175, 0.9);
+    color: whitesmoke;   
+ }
+ .logine{
+     width: 500px;
+ }
+
+/*footer*/
+.footer{
+    display: flex;
+}
+
+.bas,.l{
+    text-align: center;
+}
+.footer img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+}
+.footer h1{
+    font-size: 15px;
+    color: chocolate;
+    font-family:fantasy;
+    margin: 10px 0px;
+}
+.footer hr{
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*next one*/
+.nextone{
+  /*  background-color: rgba(245, 236, 236, 0.5);
+    background: linear-gradient(120deg, rgb(104, 100, 100), rgb(176, 176, 182));*/
+
+
+
+    width: 100%;
+   
+   
+    background-repeat:round;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(51, 51, 51) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+   font-size: 20px;
+   font-family: cursive;
+
+}
+ .nextone h1{
+    
+   color: chocolate;
+   font-family:unset;
+ }
+  .nextone p{
+      color: black;
+   
+     text-align: left;
+  }
+  .p{
+    text-indent: 100px;
+  }
+  .couleur{
+      color: rgba(238, 73, 13, 0.616);
+      font-family: cursive;
+      text-decoration: underline;
+  }
+ .ti{
+     font-size: 25px;
+     color: black;
+     text-decoration: underline;
+ }
+ .couleure{
+    color: rgba(238, 73, 13, 0.616);
+ }
+ .s{
+     font-size: 30px;
+     color: rgba(220, 20, 60, 0.61);
+     font-family: cursive;
+ }
+ .savoir{
+     display: flex;
+     justify-content: space-between;
+    
+ }
+ .cercle{
+     width: 300px;
+     height: 300px;
+     border-radius: 100%;
+     background: rgba(235, 102, 40, 0.555);
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+   padding: 10px;
+    
+ }
+ .cercle P{
+    color: lemonchiffon;
+    text-align: center;
+    font-size: 20px;
+ }
+ .rect{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    
+  
+    align-items: center;
+   padding-top: 70px;
+
+ }
+ .rect p{
+     border:2px solid rgb(56, 46, 46);
+     text-align: center;
+  height: 50px;
+  font-weight: bolder;
+  background-color: rgba(255, 99, 71, 0.342);
+padding-top: 5px;
+ align-items: center;
+ }
+ .savoir img{
+     width: 210px;
+     height: 90px;
+     border: none;
+     border-radius: 15px;
+ }
+ .vert{
+     color: chartreuse;
+     background-color:chartreuse ;
+ }
+ .mavokely{
+     color: rgb(226, 52, 139);
+     background-color:rgb(226, 52, 139) ;
+ }
+ .red{
+     color: red;
+     background-color: red;
+ }
+ .violet{
+     color: rgb(136, 96, 177);
+     background-color:  rgb(136, 96, 177);
+ }
+ .jaunne{
+     color:yellow;
+     background-color: yellow;
+
+ }
+ .bleu{
+     color: rgb(37, 225, 231);
+     background-color:rgb(37, 225, 231) ;
+ }
+ .carre{
+     width: 50px;
+     height: 40px;
+ 
+ }
+ .styl{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 50px;
+     padding: 50px;
+ }
+ /*qui somme-nous*/
+ .somme{
+    width: 100%;
+   
+  
+    background-repeat:round;
+    padding: 20px;
+   
+    scrollbar-color: rgb(51, 51, 51) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+   font-size: 20px;
+   font-family: cursive;
+ }
+ .somme h1{
+    
+    color: chocolate;
+    font-family:unset;
+  }
+  .somme p{
+    color: black;
+ 
+   text-align: left;
+}
+.somme .ti{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(180, 163, 139, 0.822);
+}
+.somme .centre{
+    text-align: center;
+    position: relative;
+   
+   
+}
+.somme img{
+    width: 400px;
+}
+.somme .abso{
+    position: absolute;
+    width: 50px;
+    top:30%;
+    left: 50%;
+    color: rgb(228, 19, 19);
+    font-size: 20px;
+    font-family: cursive;
+}
+.somme .abso img{
+    width: 50px;
+}
+.somme .abs{
+    position: absolute;
+    width: 50px;
+    top:30%;
+    left: 50%;
+    color: coral;
+}
+.conclu{
+    display: flex;
+}
+.conclu .n{
+    padding-top: 0%;
+    font-size: 20px;
+   padding-left: 19px;
+    font-family: cursive;
+}
+.n p{
+    color: rgba(255, 2, 2, 0.651);
+    margin-bottom: 50px;
+}
+/*srvice et etous*/
+.service{
+    width: 100%;
+   
+    background-repeat:round;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(51, 51, 51) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+   font-size: 20px;
+   font-family: cursive;
+ }
+.service .p{
+    text-align: left;
+}
+ .service .carre{
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   color: white;
+}
+.service .rouge{
+    color: tomato;
+}
+.service .a{
+  display: flex;
+  justify-content: space-around;
+}
+.service .pad{
+    font-size: 30px;
+    color: rgb(243, 170, 33);
+    font-family: cursive;
+}
+.service .st{
+    font-size: 40px;
+    color: rgb(241, 136, 241);
+}
+.service .c{
+    font-size: 30px;
+    
+}
+.service .c p{
+    color: rgb(243, 170, 33);
+    font-family:cursive;
+}
+.service .g{
+    font-size: 40px;
+
+}
+.service .carre2{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(197, 147, 147);
+    color: rgb(197, 147, 147);
+}
+/*carosel*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ 
